@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Procurement\Api;
+namespace Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Api;
 
 use \Spinen\ConnectWise\Clients\Procurement\ApiClient;
 use \Spinen\ConnectWise\Clients\Procurement\ApiException;
@@ -96,7 +96,7 @@ class ShipmentMethodsApi
      *
      * @param string $conditions  (optional)
      * @throws \Spinen\ConnectWise\Clients\Procurement\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Procurement\Model\Count
+     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Count
      */
     public function procurementShipmentmethodsCountGet($conditions = null)
     {
@@ -113,7 +113,7 @@ class ShipmentMethodsApi
      *
      * @param string $conditions  (optional)
      * @throws \Spinen\ConnectWise\Clients\Procurement\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Procurement\Model\Count, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Count, HTTP status code, HTTP response headers (array of strings)
      */
     public function procurementShipmentmethodsCountGetWithHttpInfo($conditions = null)
     {
@@ -155,19 +155,19 @@ class ShipmentMethodsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Procurement\Model\Count',
+                '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Count',
                 '/procurement/shipmentmethods/count'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Procurement\Model\Count', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Count', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Model\Count', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Count', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -190,7 +190,7 @@ class ShipmentMethodsApi
      * @param int $page  (optional)
      * @param int $page_size  (optional)
      * @throws \Spinen\ConnectWise\Clients\Procurement\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod[]
+     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod[]
      */
     public function procurementShipmentmethodsGet($conditions = null, $order_by = null, $childconditions = null, $customfieldconditions = null, $page = null, $page_size = null)
     {
@@ -212,7 +212,7 @@ class ShipmentMethodsApi
      * @param int $page  (optional)
      * @param int $page_size  (optional)
      * @throws \Spinen\ConnectWise\Clients\Procurement\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod[], HTTP status code, HTTP response headers (array of strings)
      */
     public function procurementShipmentmethodsGetWithHttpInfo($conditions = null, $order_by = null, $childconditions = null, $customfieldconditions = null, $page = null, $page_size = null)
     {
@@ -274,19 +274,19 @@ class ShipmentMethodsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod[]',
+                '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod[]',
                 '/procurement/shipmentmethods'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod[]', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod[]', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod[]', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod[]', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -379,7 +379,7 @@ class ShipmentMethodsApi
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -397,7 +397,7 @@ class ShipmentMethodsApi
      *
      * @param int $id  (required)
      * @throws \Spinen\ConnectWise\Clients\Procurement\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod
+     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod
      */
     public function procurementShipmentmethodsIdGet($id)
     {
@@ -414,7 +414,7 @@ class ShipmentMethodsApi
      *
      * @param int $id  (required)
      * @throws \Spinen\ConnectWise\Clients\Procurement\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod, HTTP status code, HTTP response headers (array of strings)
      */
     public function procurementShipmentmethodsIdGetWithHttpInfo($id)
     {
@@ -464,19 +464,19 @@ class ShipmentMethodsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod',
+                '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod',
                 '/procurement/shipmentmethods/{id}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -493,9 +493,9 @@ class ShipmentMethodsApi
      * Spinen&#39;s PHP ConnectWise Client for Procurement API generated by Swagger Code Generator.
      *
      * @param int $id  (required)
-     * @param \Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[] $operations  (required)
+     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[] $operations  (required)
      * @throws \Spinen\ConnectWise\Clients\Procurement\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod
+     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod
      */
     public function procurementShipmentmethodsIdPatch($id, $operations)
     {
@@ -511,9 +511,9 @@ class ShipmentMethodsApi
      * Spinen&#39;s PHP ConnectWise Client for Procurement API generated by Swagger Code Generator.
      *
      * @param int $id  (required)
-     * @param \Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[] $operations  (required)
+     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[] $operations  (required)
      * @throws \Spinen\ConnectWise\Clients\Procurement\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod, HTTP status code, HTTP response headers (array of strings)
      */
     public function procurementShipmentmethodsIdPatchWithHttpInfo($id, $operations)
     {
@@ -572,19 +572,19 @@ class ShipmentMethodsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod',
+                '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod',
                 '/procurement/shipmentmethods/{id}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -601,9 +601,9 @@ class ShipmentMethodsApi
      * Spinen&#39;s PHP ConnectWise Client for Procurement API generated by Swagger Code Generator.
      *
      * @param int $id  (required)
-     * @param \Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod $shipment_method  (required)
+     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod $shipment_method  (required)
      * @throws \Spinen\ConnectWise\Clients\Procurement\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod
+     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod
      */
     public function procurementShipmentmethodsIdPut($id, $shipment_method)
     {
@@ -619,9 +619,9 @@ class ShipmentMethodsApi
      * Spinen&#39;s PHP ConnectWise Client for Procurement API generated by Swagger Code Generator.
      *
      * @param int $id  (required)
-     * @param \Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod $shipment_method  (required)
+     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod $shipment_method  (required)
      * @throws \Spinen\ConnectWise\Clients\Procurement\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod, HTTP status code, HTTP response headers (array of strings)
      */
     public function procurementShipmentmethodsIdPutWithHttpInfo($id, $shipment_method)
     {
@@ -680,19 +680,19 @@ class ShipmentMethodsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod',
+                '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod',
                 '/procurement/shipmentmethods/{id}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -708,9 +708,9 @@ class ShipmentMethodsApi
      *
      * Spinen&#39;s PHP ConnectWise Client for Procurement API generated by Swagger Code Generator.
      *
-     * @param \Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod $shipment_method  (required)
+     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod $shipment_method  (required)
      * @throws \Spinen\ConnectWise\Clients\Procurement\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod
+     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod
      */
     public function procurementShipmentmethodsPost($shipment_method)
     {
@@ -725,9 +725,9 @@ class ShipmentMethodsApi
      *
      * Spinen&#39;s PHP ConnectWise Client for Procurement API generated by Swagger Code Generator.
      *
-     * @param \Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod $shipment_method  (required)
+     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod $shipment_method  (required)
      * @throws \Spinen\ConnectWise\Clients\Procurement\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod, HTTP status code, HTTP response headers (array of strings)
      */
     public function procurementShipmentmethodsPostWithHttpInfo($shipment_method)
     {
@@ -774,19 +774,19 @@ class ShipmentMethodsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod',
+                '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod',
                 '/procurement/shipmentmethods'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }

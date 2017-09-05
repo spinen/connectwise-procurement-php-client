@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Procurement\Api;
+namespace Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Api;
 
 use \Spinen\ConnectWise\Clients\Procurement\ApiClient;
 use \Spinen\ConnectWise\Clients\Procurement\ApiException;
@@ -185,7 +185,7 @@ class CatalogComponentsApi
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -204,7 +204,7 @@ class CatalogComponentsApi
      * @param int $id  (required)
      * @param int $component_id  (required)
      * @throws \Spinen\ConnectWise\Clients\Procurement\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Procurement\Model\CatalogComponent
+     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CatalogComponent
      */
     public function procurementCatalogIdComponentsComponentIdGet($id, $component_id)
     {
@@ -222,7 +222,7 @@ class CatalogComponentsApi
      * @param int $id  (required)
      * @param int $component_id  (required)
      * @throws \Spinen\ConnectWise\Clients\Procurement\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Procurement\Model\CatalogComponent, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CatalogComponent, HTTP status code, HTTP response headers (array of strings)
      */
     public function procurementCatalogIdComponentsComponentIdGetWithHttpInfo($id, $component_id)
     {
@@ -284,19 +284,19 @@ class CatalogComponentsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Procurement\Model\CatalogComponent',
+                '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CatalogComponent',
                 '/procurement/catalog/{id}/components/{componentId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Procurement\Model\CatalogComponent', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CatalogComponent', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Model\CatalogComponent', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CatalogComponent', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -314,9 +314,9 @@ class CatalogComponentsApi
      *
      * @param int $id  (required)
      * @param int $component_id  (required)
-     * @param \Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[] $operations  (required)
+     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[] $operations  (required)
      * @throws \Spinen\ConnectWise\Clients\Procurement\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Procurement\Model\CatalogComponent
+     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CatalogComponent
      */
     public function procurementCatalogIdComponentsComponentIdPatch($id, $component_id, $operations)
     {
@@ -333,9 +333,9 @@ class CatalogComponentsApi
      *
      * @param int $id  (required)
      * @param int $component_id  (required)
-     * @param \Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[] $operations  (required)
+     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[] $operations  (required)
      * @throws \Spinen\ConnectWise\Clients\Procurement\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Procurement\Model\CatalogComponent, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CatalogComponent, HTTP status code, HTTP response headers (array of strings)
      */
     public function procurementCatalogIdComponentsComponentIdPatchWithHttpInfo($id, $component_id, $operations)
     {
@@ -406,19 +406,19 @@ class CatalogComponentsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Procurement\Model\CatalogComponent',
+                '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CatalogComponent',
                 '/procurement/catalog/{id}/components/{componentId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Procurement\Model\CatalogComponent', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CatalogComponent', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Model\CatalogComponent', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CatalogComponent', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -436,9 +436,9 @@ class CatalogComponentsApi
      *
      * @param int $id  (required)
      * @param int $component_id  (required)
-     * @param \Spinen\ConnectWise\Clients\Procurement\Model\CatalogComponent $catalog_component  (required)
+     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CatalogComponent $catalog_component  (required)
      * @throws \Spinen\ConnectWise\Clients\Procurement\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Procurement\Model\CatalogComponent
+     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CatalogComponent
      */
     public function procurementCatalogIdComponentsComponentIdPut($id, $component_id, $catalog_component)
     {
@@ -455,9 +455,9 @@ class CatalogComponentsApi
      *
      * @param int $id  (required)
      * @param int $component_id  (required)
-     * @param \Spinen\ConnectWise\Clients\Procurement\Model\CatalogComponent $catalog_component  (required)
+     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CatalogComponent $catalog_component  (required)
      * @throws \Spinen\ConnectWise\Clients\Procurement\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Procurement\Model\CatalogComponent, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CatalogComponent, HTTP status code, HTTP response headers (array of strings)
      */
     public function procurementCatalogIdComponentsComponentIdPutWithHttpInfo($id, $component_id, $catalog_component)
     {
@@ -528,19 +528,19 @@ class CatalogComponentsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Procurement\Model\CatalogComponent',
+                '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CatalogComponent',
                 '/procurement/catalog/{id}/components/{componentId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Procurement\Model\CatalogComponent', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CatalogComponent', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Model\CatalogComponent', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CatalogComponent', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -559,7 +559,7 @@ class CatalogComponentsApi
      * @param int $id  (required)
      * @param string $conditions  (optional)
      * @throws \Spinen\ConnectWise\Clients\Procurement\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Procurement\Model\Count
+     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Count
      */
     public function procurementCatalogIdComponentsCountGet($id, $conditions = null)
     {
@@ -577,7 +577,7 @@ class CatalogComponentsApi
      * @param int $id  (required)
      * @param string $conditions  (optional)
      * @throws \Spinen\ConnectWise\Clients\Procurement\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Procurement\Model\Count, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Count, HTTP status code, HTTP response headers (array of strings)
      */
     public function procurementCatalogIdComponentsCountGetWithHttpInfo($id, $conditions = null)
     {
@@ -631,19 +631,19 @@ class CatalogComponentsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Procurement\Model\Count',
+                '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Count',
                 '/procurement/catalog/{id}/components/count'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Procurement\Model\Count', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Count', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Model\Count', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Count', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -667,7 +667,7 @@ class CatalogComponentsApi
      * @param int $page  (optional)
      * @param int $page_size  (optional)
      * @throws \Spinen\ConnectWise\Clients\Procurement\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Procurement\Model\CatalogComponent[]
+     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CatalogComponent[]
      */
     public function procurementCatalogIdComponentsGet($id, $conditions = null, $order_by = null, $childconditions = null, $customfieldconditions = null, $page = null, $page_size = null)
     {
@@ -690,7 +690,7 @@ class CatalogComponentsApi
      * @param int $page  (optional)
      * @param int $page_size  (optional)
      * @throws \Spinen\ConnectWise\Clients\Procurement\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Procurement\Model\CatalogComponent[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CatalogComponent[], HTTP status code, HTTP response headers (array of strings)
      */
     public function procurementCatalogIdComponentsGetWithHttpInfo($id, $conditions = null, $order_by = null, $childconditions = null, $customfieldconditions = null, $page = null, $page_size = null)
     {
@@ -764,19 +764,19 @@ class CatalogComponentsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Procurement\Model\CatalogComponent[]',
+                '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CatalogComponent[]',
                 '/procurement/catalog/{id}/components'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Procurement\Model\CatalogComponent[]', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CatalogComponent[]', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Model\CatalogComponent[]', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CatalogComponent[]', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -793,9 +793,9 @@ class CatalogComponentsApi
      * Spinen&#39;s PHP ConnectWise Client for Procurement API generated by Swagger Code Generator.
      *
      * @param int $id  (required)
-     * @param \Spinen\ConnectWise\Clients\Procurement\Model\CatalogComponent $catalog_component  (required)
+     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CatalogComponent $catalog_component  (required)
      * @throws \Spinen\ConnectWise\Clients\Procurement\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Procurement\Model\CatalogComponent
+     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CatalogComponent
      */
     public function procurementCatalogIdComponentsPost($id, $catalog_component)
     {
@@ -811,9 +811,9 @@ class CatalogComponentsApi
      * Spinen&#39;s PHP ConnectWise Client for Procurement API generated by Swagger Code Generator.
      *
      * @param int $id  (required)
-     * @param \Spinen\ConnectWise\Clients\Procurement\Model\CatalogComponent $catalog_component  (required)
+     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CatalogComponent $catalog_component  (required)
      * @throws \Spinen\ConnectWise\Clients\Procurement\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Procurement\Model\CatalogComponent, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CatalogComponent, HTTP status code, HTTP response headers (array of strings)
      */
     public function procurementCatalogIdComponentsPostWithHttpInfo($id, $catalog_component)
     {
@@ -872,19 +872,19 @@ class CatalogComponentsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Procurement\Model\CatalogComponent',
+                '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CatalogComponent',
                 '/procurement/catalog/{id}/components'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Procurement\Model\CatalogComponent', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CatalogComponent', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Model\CatalogComponent', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CatalogComponent', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }

@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Procurement\Model;
+namespace Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model;
 
 use \ArrayAccess;
 
@@ -57,13 +57,13 @@ class Adjustment implements ArrayAccess
     protected static $swaggerTypes = [
         'id' => 'int',
         'identifier' => 'string',
-        'type' => '\Spinen\ConnectWise\Clients\Procurement\Model\AdjustmentTypeReference',
+        'type' => '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\AdjustmentTypeReference',
         'reason' => 'string',
         'notes' => 'string',
         'closed_flag' => 'bool',
         'closed_by' => 'string',
         'closed_date' => '\DateTime',
-        '_info' => '\Spinen\ConnectWise\Clients\Procurement\Model\Metadata'
+        '_info' => '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Metadata'
     ];
 
     public static function swaggerTypes()
@@ -260,7 +260,7 @@ class Adjustment implements ArrayAccess
 
     /**
      * Gets type
-     * @return \Spinen\ConnectWise\Clients\Procurement\Model\AdjustmentTypeReference
+     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\AdjustmentTypeReference
      */
     public function getType()
     {
@@ -269,7 +269,7 @@ class Adjustment implements ArrayAccess
 
     /**
      * Sets type
-     * @param \Spinen\ConnectWise\Clients\Procurement\Model\AdjustmentTypeReference $type
+     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\AdjustmentTypeReference $type
      * @return $this
      */
     public function setType($type)
@@ -390,7 +390,7 @@ class Adjustment implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Procurement\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Metadata
      */
     public function getInfo()
     {
@@ -399,7 +399,7 @@ class Adjustment implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Procurement\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)

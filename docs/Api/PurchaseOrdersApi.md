@@ -15,7 +15,7 @@ Method | HTTP request | Description
 
 
 # **procurementPurchaseordersCountGet**
-> \Spinen\ConnectWise\Clients\Procurement\Model\Count procurementPurchaseordersCountGet($conditions)
+> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Count procurementPurchaseordersCountGet($conditions)
 
 
 
@@ -50,7 +50,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -64,7 +64,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementPurchaseordersGet**
-> \Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder[] procurementPurchaseordersGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder[] procurementPurchaseordersGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -109,7 +109,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder[]**](../Model/PurchaseOrder.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder[]**](../Model/PurchaseOrder.md)
 
 ### Authorization
 
@@ -171,7 +171,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementPurchaseordersIdGet**
-> \Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder procurementPurchaseordersIdGet($id)
+> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder procurementPurchaseordersIdGet($id)
 
 
 
@@ -206,7 +206,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder**](../Model/PurchaseOrder.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder**](../Model/PurchaseOrder.md)
 
 ### Authorization
 
@@ -220,7 +220,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementPurchaseordersIdPatch**
-> \Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder procurementPurchaseordersIdPatch($id, $operations)
+> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder procurementPurchaseordersIdPatch($id, $operations)
 
 
 
@@ -237,7 +237,7 @@ Spinen\ConnectWise\Clients\Procurement\Configuration::getDefaultConfiguration()-
 
 $api_instance = new Spinen\ConnectWise\Clients\Procurement\Api\PurchaseOrdersApi();
 $id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->procurementPurchaseordersIdPatch($id, $operations);
@@ -253,11 +253,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder**](../Model/PurchaseOrder.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder**](../Model/PurchaseOrder.md)
 
 ### Authorization
 
@@ -271,7 +271,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementPurchaseordersIdPut**
-> \Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder procurementPurchaseordersIdPut($id, $purchase_order)
+> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder procurementPurchaseordersIdPut($id, $purchase_order)
 
 
 
@@ -288,7 +288,7 @@ Spinen\ConnectWise\Clients\Procurement\Configuration::getDefaultConfiguration()-
 
 $api_instance = new Spinen\ConnectWise\Clients\Procurement\Api\PurchaseOrdersApi();
 $id = 56; // int | 
-$purchase_order = new \Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder(); // \Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder | 
+$purchase_order = new \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder(); // \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder | 
 
 try {
     $result = $api_instance->procurementPurchaseordersIdPut($id, $purchase_order);
@@ -304,11 +304,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **purchase_order** | [**\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder**](../Model/\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder.md)|  |
+ **purchase_order** | [**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder**](../Model/\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder**](../Model/PurchaseOrder.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder**](../Model/PurchaseOrder.md)
 
 ### Authorization
 
@@ -322,7 +322,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementPurchaseordersPost**
-> \Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder procurementPurchaseordersPost($purchase_order)
+> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder procurementPurchaseordersPost($purchase_order)
 
 
 
@@ -338,7 +338,7 @@ Spinen\ConnectWise\Clients\Procurement\Configuration::getDefaultConfiguration()-
 Spinen\ConnectWise\Clients\Procurement\Configuration::getDefaultConfiguration()->setPassword('YOUR_PASSWORD');
 
 $api_instance = new Spinen\ConnectWise\Clients\Procurement\Api\PurchaseOrdersApi();
-$purchase_order = new \Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder(); // \Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder | 
+$purchase_order = new \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder(); // \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder | 
 
 try {
     $result = $api_instance->procurementPurchaseordersPost($purchase_order);
@@ -353,11 +353,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **purchase_order** | [**\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder**](../Model/\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder.md)|  |
+ **purchase_order** | [**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder**](../Model/\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder**](../Model/PurchaseOrder.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder**](../Model/PurchaseOrder.md)
 
 ### Authorization
 

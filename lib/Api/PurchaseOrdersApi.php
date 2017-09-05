@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Procurement\Api;
+namespace Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Api;
 
 use \Spinen\ConnectWise\Clients\Procurement\ApiClient;
 use \Spinen\ConnectWise\Clients\Procurement\ApiException;
@@ -96,7 +96,7 @@ class PurchaseOrdersApi
      *
      * @param string $conditions  (optional)
      * @throws \Spinen\ConnectWise\Clients\Procurement\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Procurement\Model\Count
+     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Count
      */
     public function procurementPurchaseordersCountGet($conditions = null)
     {
@@ -113,7 +113,7 @@ class PurchaseOrdersApi
      *
      * @param string $conditions  (optional)
      * @throws \Spinen\ConnectWise\Clients\Procurement\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Procurement\Model\Count, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Count, HTTP status code, HTTP response headers (array of strings)
      */
     public function procurementPurchaseordersCountGetWithHttpInfo($conditions = null)
     {
@@ -155,19 +155,19 @@ class PurchaseOrdersApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Procurement\Model\Count',
+                '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Count',
                 '/procurement/purchaseorders/count'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Procurement\Model\Count', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Count', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Model\Count', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Count', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -190,7 +190,7 @@ class PurchaseOrdersApi
      * @param int $page  (optional)
      * @param int $page_size  (optional)
      * @throws \Spinen\ConnectWise\Clients\Procurement\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder[]
+     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder[]
      */
     public function procurementPurchaseordersGet($conditions = null, $order_by = null, $childconditions = null, $customfieldconditions = null, $page = null, $page_size = null)
     {
@@ -212,7 +212,7 @@ class PurchaseOrdersApi
      * @param int $page  (optional)
      * @param int $page_size  (optional)
      * @throws \Spinen\ConnectWise\Clients\Procurement\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder[], HTTP status code, HTTP response headers (array of strings)
      */
     public function procurementPurchaseordersGetWithHttpInfo($conditions = null, $order_by = null, $childconditions = null, $customfieldconditions = null, $page = null, $page_size = null)
     {
@@ -274,19 +274,19 @@ class PurchaseOrdersApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder[]',
+                '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder[]',
                 '/procurement/purchaseorders'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder[]', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder[]', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder[]', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder[]', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -379,7 +379,7 @@ class PurchaseOrdersApi
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -397,7 +397,7 @@ class PurchaseOrdersApi
      *
      * @param int $id  (required)
      * @throws \Spinen\ConnectWise\Clients\Procurement\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder
+     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder
      */
     public function procurementPurchaseordersIdGet($id)
     {
@@ -414,7 +414,7 @@ class PurchaseOrdersApi
      *
      * @param int $id  (required)
      * @throws \Spinen\ConnectWise\Clients\Procurement\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder, HTTP status code, HTTP response headers (array of strings)
      */
     public function procurementPurchaseordersIdGetWithHttpInfo($id)
     {
@@ -464,19 +464,19 @@ class PurchaseOrdersApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder',
+                '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder',
                 '/procurement/purchaseorders/{id}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -493,9 +493,9 @@ class PurchaseOrdersApi
      * Spinen&#39;s PHP ConnectWise Client for Procurement API generated by Swagger Code Generator.
      *
      * @param int $id  (required)
-     * @param \Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[] $operations  (required)
+     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[] $operations  (required)
      * @throws \Spinen\ConnectWise\Clients\Procurement\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder
+     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder
      */
     public function procurementPurchaseordersIdPatch($id, $operations)
     {
@@ -511,9 +511,9 @@ class PurchaseOrdersApi
      * Spinen&#39;s PHP ConnectWise Client for Procurement API generated by Swagger Code Generator.
      *
      * @param int $id  (required)
-     * @param \Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[] $operations  (required)
+     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[] $operations  (required)
      * @throws \Spinen\ConnectWise\Clients\Procurement\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder, HTTP status code, HTTP response headers (array of strings)
      */
     public function procurementPurchaseordersIdPatchWithHttpInfo($id, $operations)
     {
@@ -572,19 +572,19 @@ class PurchaseOrdersApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder',
+                '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder',
                 '/procurement/purchaseorders/{id}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -601,9 +601,9 @@ class PurchaseOrdersApi
      * Spinen&#39;s PHP ConnectWise Client for Procurement API generated by Swagger Code Generator.
      *
      * @param int $id  (required)
-     * @param \Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder $purchase_order  (required)
+     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder $purchase_order  (required)
      * @throws \Spinen\ConnectWise\Clients\Procurement\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder
+     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder
      */
     public function procurementPurchaseordersIdPut($id, $purchase_order)
     {
@@ -619,9 +619,9 @@ class PurchaseOrdersApi
      * Spinen&#39;s PHP ConnectWise Client for Procurement API generated by Swagger Code Generator.
      *
      * @param int $id  (required)
-     * @param \Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder $purchase_order  (required)
+     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder $purchase_order  (required)
      * @throws \Spinen\ConnectWise\Clients\Procurement\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder, HTTP status code, HTTP response headers (array of strings)
      */
     public function procurementPurchaseordersIdPutWithHttpInfo($id, $purchase_order)
     {
@@ -680,19 +680,19 @@ class PurchaseOrdersApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder',
+                '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder',
                 '/procurement/purchaseorders/{id}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -708,9 +708,9 @@ class PurchaseOrdersApi
      *
      * Spinen&#39;s PHP ConnectWise Client for Procurement API generated by Swagger Code Generator.
      *
-     * @param \Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder $purchase_order  (required)
+     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder $purchase_order  (required)
      * @throws \Spinen\ConnectWise\Clients\Procurement\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder
+     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder
      */
     public function procurementPurchaseordersPost($purchase_order)
     {
@@ -725,9 +725,9 @@ class PurchaseOrdersApi
      *
      * Spinen&#39;s PHP ConnectWise Client for Procurement API generated by Swagger Code Generator.
      *
-     * @param \Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder $purchase_order  (required)
+     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder $purchase_order  (required)
      * @throws \Spinen\ConnectWise\Clients\Procurement\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder, HTTP status code, HTTP response headers (array of strings)
      */
     public function procurementPurchaseordersPostWithHttpInfo($purchase_order)
     {
@@ -774,19 +774,19 @@ class PurchaseOrdersApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder',
+                '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder',
                 '/procurement/purchaseorders'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrder', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }

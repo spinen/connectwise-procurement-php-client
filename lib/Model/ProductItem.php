@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Procurement\Model;
+namespace Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model;
 
 use \ArrayAccess;
 
@@ -56,7 +56,7 @@ class ProductItem implements ArrayAccess
       */
     protected static $swaggerTypes = [
         'id' => 'int',
-        'catalog_item' => '\Spinen\ConnectWise\Clients\Procurement\Model\CatalogItemReference',
+        'catalog_item' => '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CatalogItemReference',
         'charge_to_id' => 'int',
         'charge_to_type' => 'string',
         'description' => 'string',
@@ -67,10 +67,10 @@ class ProductItem implements ArrayAccess
         'discount' => 'double',
         'price_method' => 'string',
         'billable_option' => 'string',
-        'agreement' => '\Spinen\ConnectWise\Clients\Procurement\Model\AgreementReference',
+        'agreement' => '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\AgreementReference',
         'location_id' => 'int',
         'business_unit_id' => 'int',
-        'vendor' => '\Spinen\ConnectWise\Clients\Procurement\Model\CompanyReference',
+        'vendor' => '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CompanyReference',
         'vendor_sku' => 'string',
         'taxable_flag' => 'bool',
         'dropship_flag' => 'bool',
@@ -84,9 +84,9 @@ class ProductItem implements ArrayAccess
         'product_supplied_flag' => 'bool',
         'sub_contractor_ship_to_id' => 'int',
         'sub_contractor_amount_limit' => 'double',
-        'recurring' => '\Spinen\ConnectWise\Clients\Procurement\Model\ProductRecurring',
-        'sla' => '\Spinen\ConnectWise\Clients\Procurement\Model\SLAReference',
-        'entity_type' => '\Spinen\ConnectWise\Clients\Procurement\Model\EntityTypeReference',
+        'recurring' => '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ProductRecurring',
+        'sla' => '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\SLAReference',
+        'entity_type' => '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\EntityTypeReference',
         'forecast_detail_id' => 'int',
         'cancelled_by' => 'int',
         'cancelled_date' => '\DateTime',
@@ -96,9 +96,9 @@ class ProductItem implements ArrayAccess
         'integration_x_ref' => 'string',
         'list_price' => 'double',
         'serial_number_ids' => 'int[]',
-        'company' => '\Spinen\ConnectWise\Clients\Procurement\Model\CompanyReference',
-        'forecast_status' => '\Spinen\ConnectWise\Clients\Procurement\Model\OpportunityStatusReference',
-        '_info' => '\Spinen\ConnectWise\Clients\Procurement\Model\Metadata',
+        'company' => '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CompanyReference',
+        'forecast_status' => '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\OpportunityStatusReference',
+        '_info' => '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Metadata',
         'bypass_forecast_update' => 'bool'
     ];
 
@@ -529,7 +529,7 @@ class ProductItem implements ArrayAccess
 
     /**
      * Gets catalog_item
-     * @return \Spinen\ConnectWise\Clients\Procurement\Model\CatalogItemReference
+     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CatalogItemReference
      */
     public function getCatalogItem()
     {
@@ -538,7 +538,7 @@ class ProductItem implements ArrayAccess
 
     /**
      * Sets catalog_item
-     * @param \Spinen\ConnectWise\Clients\Procurement\Model\CatalogItemReference $catalog_item
+     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CatalogItemReference $catalog_item
      * @return $this
      */
     public function setCatalogItem($catalog_item)
@@ -776,7 +776,7 @@ class ProductItem implements ArrayAccess
 
     /**
      * Gets agreement
-     * @return \Spinen\ConnectWise\Clients\Procurement\Model\AgreementReference
+     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\AgreementReference
      */
     public function getAgreement()
     {
@@ -785,7 +785,7 @@ class ProductItem implements ArrayAccess
 
     /**
      * Sets agreement
-     * @param \Spinen\ConnectWise\Clients\Procurement\Model\AgreementReference $agreement
+     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\AgreementReference $agreement
      * @return $this
      */
     public function setAgreement($agreement)
@@ -839,7 +839,7 @@ class ProductItem implements ArrayAccess
 
     /**
      * Gets vendor
-     * @return \Spinen\ConnectWise\Clients\Procurement\Model\CompanyReference
+     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CompanyReference
      */
     public function getVendor()
     {
@@ -848,7 +848,7 @@ class ProductItem implements ArrayAccess
 
     /**
      * Sets vendor
-     * @param \Spinen\ConnectWise\Clients\Procurement\Model\CompanyReference $vendor
+     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CompanyReference $vendor
      * @return $this
      */
     public function setVendor($vendor)
@@ -1149,7 +1149,7 @@ class ProductItem implements ArrayAccess
 
     /**
      * Gets recurring
-     * @return \Spinen\ConnectWise\Clients\Procurement\Model\ProductRecurring
+     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ProductRecurring
      */
     public function getRecurring()
     {
@@ -1158,7 +1158,7 @@ class ProductItem implements ArrayAccess
 
     /**
      * Sets recurring
-     * @param \Spinen\ConnectWise\Clients\Procurement\Model\ProductRecurring $recurring
+     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ProductRecurring $recurring
      * @return $this
      */
     public function setRecurring($recurring)
@@ -1170,7 +1170,7 @@ class ProductItem implements ArrayAccess
 
     /**
      * Gets sla
-     * @return \Spinen\ConnectWise\Clients\Procurement\Model\SLAReference
+     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\SLAReference
      */
     public function getSla()
     {
@@ -1179,7 +1179,7 @@ class ProductItem implements ArrayAccess
 
     /**
      * Sets sla
-     * @param \Spinen\ConnectWise\Clients\Procurement\Model\SLAReference $sla
+     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\SLAReference $sla
      * @return $this
      */
     public function setSla($sla)
@@ -1191,7 +1191,7 @@ class ProductItem implements ArrayAccess
 
     /**
      * Gets entity_type
-     * @return \Spinen\ConnectWise\Clients\Procurement\Model\EntityTypeReference
+     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\EntityTypeReference
      */
     public function getEntityType()
     {
@@ -1200,7 +1200,7 @@ class ProductItem implements ArrayAccess
 
     /**
      * Sets entity_type
-     * @param \Spinen\ConnectWise\Clients\Procurement\Model\EntityTypeReference $entity_type
+     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\EntityTypeReference $entity_type
      * @return $this
      */
     public function setEntityType($entity_type)
@@ -1401,7 +1401,7 @@ class ProductItem implements ArrayAccess
 
     /**
      * Gets company
-     * @return \Spinen\ConnectWise\Clients\Procurement\Model\CompanyReference
+     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CompanyReference
      */
     public function getCompany()
     {
@@ -1410,7 +1410,7 @@ class ProductItem implements ArrayAccess
 
     /**
      * Sets company
-     * @param \Spinen\ConnectWise\Clients\Procurement\Model\CompanyReference $company
+     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CompanyReference $company
      * @return $this
      */
     public function setCompany($company)
@@ -1422,7 +1422,7 @@ class ProductItem implements ArrayAccess
 
     /**
      * Gets forecast_status
-     * @return \Spinen\ConnectWise\Clients\Procurement\Model\OpportunityStatusReference
+     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\OpportunityStatusReference
      */
     public function getForecastStatus()
     {
@@ -1431,7 +1431,7 @@ class ProductItem implements ArrayAccess
 
     /**
      * Sets forecast_status
-     * @param \Spinen\ConnectWise\Clients\Procurement\Model\OpportunityStatusReference $forecast_status
+     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\OpportunityStatusReference $forecast_status
      * @return $this
      */
     public function setForecastStatus($forecast_status)
@@ -1443,7 +1443,7 @@ class ProductItem implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Procurement\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Metadata
      */
     public function getInfo()
     {
@@ -1452,7 +1452,7 @@ class ProductItem implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Procurement\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)

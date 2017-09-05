@@ -65,7 +65,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementUnitOfMeasuresIdConversionsConversionIdGet**
-> \Spinen\ConnectWise\Clients\Procurement\Model\Conversion procurementUnitOfMeasuresIdConversionsConversionIdGet($id, $conversion_id)
+> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Conversion procurementUnitOfMeasuresIdConversionsConversionIdGet($id, $conversion_id)
 
 
 
@@ -102,7 +102,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Model\Conversion**](../Model/Conversion.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Conversion**](../Model/Conversion.md)
 
 ### Authorization
 
@@ -116,7 +116,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementUnitOfMeasuresIdConversionsConversionIdPatch**
-> \Spinen\ConnectWise\Clients\Procurement\Model\Conversion procurementUnitOfMeasuresIdConversionsConversionIdPatch($id, $conversion_id, $operations)
+> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Conversion procurementUnitOfMeasuresIdConversionsConversionIdPatch($id, $conversion_id, $operations)
 
 
 
@@ -134,7 +134,7 @@ Spinen\ConnectWise\Clients\Procurement\Configuration::getDefaultConfiguration()-
 $api_instance = new Spinen\ConnectWise\Clients\Procurement\Api\UnitOfMeasureConversionsApi();
 $id = 56; // int | 
 $conversion_id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->procurementUnitOfMeasuresIdConversionsConversionIdPatch($id, $conversion_id, $operations);
@@ -151,11 +151,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **conversion_id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Model\Conversion**](../Model/Conversion.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Conversion**](../Model/Conversion.md)
 
 ### Authorization
 
@@ -169,7 +169,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementUnitOfMeasuresIdConversionsConversionIdPut**
-> \Spinen\ConnectWise\Clients\Procurement\Model\Conversion procurementUnitOfMeasuresIdConversionsConversionIdPut($id, $conversion_id, $conversion)
+> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Conversion procurementUnitOfMeasuresIdConversionsConversionIdPut($id, $conversion_id, $conversion)
 
 
 
@@ -187,7 +187,7 @@ Spinen\ConnectWise\Clients\Procurement\Configuration::getDefaultConfiguration()-
 $api_instance = new Spinen\ConnectWise\Clients\Procurement\Api\UnitOfMeasureConversionsApi();
 $id = 56; // int | 
 $conversion_id = 56; // int | 
-$conversion = new \Spinen\ConnectWise\Clients\Procurement\Model\Conversion(); // \Spinen\ConnectWise\Clients\Procurement\Model\Conversion | 
+$conversion = new \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Conversion(); // \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Conversion | 
 
 try {
     $result = $api_instance->procurementUnitOfMeasuresIdConversionsConversionIdPut($id, $conversion_id, $conversion);
@@ -204,11 +204,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **conversion_id** | **int**|  |
- **conversion** | [**\Spinen\ConnectWise\Clients\Procurement\Model\Conversion**](../Model/\Spinen\ConnectWise\Clients\Procurement\Model\Conversion.md)|  |
+ **conversion** | [**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Conversion**](../Model/\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Conversion.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Model\Conversion**](../Model/Conversion.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Conversion**](../Model/Conversion.md)
 
 ### Authorization
 
@@ -222,7 +222,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementUnitOfMeasuresIdConversionsCountGet**
-> \Spinen\ConnectWise\Clients\Procurement\Model\Count procurementUnitOfMeasuresIdConversionsCountGet($id, $conditions)
+> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Count procurementUnitOfMeasuresIdConversionsCountGet($id, $conditions)
 
 
 
@@ -259,7 +259,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -273,7 +273,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementUnitOfMeasuresIdConversionsGet**
-> \Spinen\ConnectWise\Clients\Procurement\Model\Conversion[] procurementUnitOfMeasuresIdConversionsGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Conversion[] procurementUnitOfMeasuresIdConversionsGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -320,7 +320,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Model\Conversion[]**](../Model/Conversion.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Conversion[]**](../Model/Conversion.md)
 
 ### Authorization
 
@@ -334,7 +334,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementUnitOfMeasuresIdConversionsPost**
-> \Spinen\ConnectWise\Clients\Procurement\Model\Conversion procurementUnitOfMeasuresIdConversionsPost($id, $conversion)
+> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Conversion procurementUnitOfMeasuresIdConversionsPost($id, $conversion)
 
 
 
@@ -351,7 +351,7 @@ Spinen\ConnectWise\Clients\Procurement\Configuration::getDefaultConfiguration()-
 
 $api_instance = new Spinen\ConnectWise\Clients\Procurement\Api\UnitOfMeasureConversionsApi();
 $id = 56; // int | 
-$conversion = new \Spinen\ConnectWise\Clients\Procurement\Model\Conversion(); // \Spinen\ConnectWise\Clients\Procurement\Model\Conversion | 
+$conversion = new \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Conversion(); // \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Conversion | 
 
 try {
     $result = $api_instance->procurementUnitOfMeasuresIdConversionsPost($id, $conversion);
@@ -367,11 +367,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **conversion** | [**\Spinen\ConnectWise\Clients\Procurement\Model\Conversion**](../Model/\Spinen\ConnectWise\Clients\Procurement\Model\Conversion.md)|  |
+ **conversion** | [**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Conversion**](../Model/\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Conversion.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Model\Conversion**](../Model/Conversion.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Conversion**](../Model/Conversion.md)
 
 ### Authorization
 

@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Procurement\Model;
+namespace Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model;
 
 use \ArrayAccess;
 
@@ -57,9 +57,9 @@ class Conversion implements ArrayAccess
     protected static $swaggerTypes = [
         'id' => 'int',
         'quantity' => 'double',
-        'uom_type' => '\Spinen\ConnectWise\Clients\Procurement\Model\UnitOfMeasureReference',
-        'parent_uom' => '\Spinen\ConnectWise\Clients\Procurement\Model\UnitOfMeasureReference',
-        '_info' => '\Spinen\ConnectWise\Clients\Procurement\Model\Metadata'
+        'uom_type' => '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\UnitOfMeasureReference',
+        'parent_uom' => '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\UnitOfMeasureReference',
+        '_info' => '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Metadata'
     ];
 
     public static function swaggerTypes()
@@ -222,7 +222,7 @@ class Conversion implements ArrayAccess
 
     /**
      * Gets uom_type
-     * @return \Spinen\ConnectWise\Clients\Procurement\Model\UnitOfMeasureReference
+     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\UnitOfMeasureReference
      */
     public function getUomType()
     {
@@ -231,7 +231,7 @@ class Conversion implements ArrayAccess
 
     /**
      * Sets uom_type
-     * @param \Spinen\ConnectWise\Clients\Procurement\Model\UnitOfMeasureReference $uom_type
+     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\UnitOfMeasureReference $uom_type
      * @return $this
      */
     public function setUomType($uom_type)
@@ -243,7 +243,7 @@ class Conversion implements ArrayAccess
 
     /**
      * Gets parent_uom
-     * @return \Spinen\ConnectWise\Clients\Procurement\Model\UnitOfMeasureReference
+     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\UnitOfMeasureReference
      */
     public function getParentUom()
     {
@@ -252,7 +252,7 @@ class Conversion implements ArrayAccess
 
     /**
      * Sets parent_uom
-     * @param \Spinen\ConnectWise\Clients\Procurement\Model\UnitOfMeasureReference $parent_uom
+     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\UnitOfMeasureReference $parent_uom
      * @return $this
      */
     public function setParentUom($parent_uom)
@@ -264,7 +264,7 @@ class Conversion implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Procurement\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Metadata
      */
     public function getInfo()
     {
@@ -273,7 +273,7 @@ class Conversion implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Procurement\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)

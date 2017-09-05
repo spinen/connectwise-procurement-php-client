@@ -15,7 +15,7 @@ Method | HTTP request | Description
 
 
 # **procurementCategoriesCountGet**
-> \Spinen\ConnectWise\Clients\Procurement\Model\Count procurementCategoriesCountGet($conditions)
+> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Count procurementCategoriesCountGet($conditions)
 
 
 
@@ -50,7 +50,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -64,7 +64,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementCategoriesGet**
-> \Spinen\ConnectWise\Clients\Procurement\Model\Category[] procurementCategoriesGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Category[] procurementCategoriesGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -109,7 +109,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Model\Category[]**](../Model/Category.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Category[]**](../Model/Category.md)
 
 ### Authorization
 
@@ -171,7 +171,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementCategoriesIdGet**
-> \Spinen\ConnectWise\Clients\Procurement\Model\Category procurementCategoriesIdGet($id)
+> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Category procurementCategoriesIdGet($id)
 
 
 
@@ -206,7 +206,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Model\Category**](../Model/Category.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Category**](../Model/Category.md)
 
 ### Authorization
 
@@ -220,7 +220,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementCategoriesIdPatch**
-> \Spinen\ConnectWise\Clients\Procurement\Model\Category procurementCategoriesIdPatch($id, $operations)
+> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Category procurementCategoriesIdPatch($id, $operations)
 
 
 
@@ -237,7 +237,7 @@ Spinen\ConnectWise\Clients\Procurement\Configuration::getDefaultConfiguration()-
 
 $api_instance = new Spinen\ConnectWise\Clients\Procurement\Api\CategoriesApi();
 $id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->procurementCategoriesIdPatch($id, $operations);
@@ -253,11 +253,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Model\Category**](../Model/Category.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Category**](../Model/Category.md)
 
 ### Authorization
 
@@ -271,7 +271,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementCategoriesIdPut**
-> \Spinen\ConnectWise\Clients\Procurement\Model\Category procurementCategoriesIdPut($id, $category)
+> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Category procurementCategoriesIdPut($id, $category)
 
 
 
@@ -288,7 +288,7 @@ Spinen\ConnectWise\Clients\Procurement\Configuration::getDefaultConfiguration()-
 
 $api_instance = new Spinen\ConnectWise\Clients\Procurement\Api\CategoriesApi();
 $id = 56; // int | 
-$category = new \Spinen\ConnectWise\Clients\Procurement\Model\Category(); // \Spinen\ConnectWise\Clients\Procurement\Model\Category | 
+$category = new \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Category(); // \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Category | 
 
 try {
     $result = $api_instance->procurementCategoriesIdPut($id, $category);
@@ -304,11 +304,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **category** | [**\Spinen\ConnectWise\Clients\Procurement\Model\Category**](../Model/\Spinen\ConnectWise\Clients\Procurement\Model\Category.md)|  |
+ **category** | [**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Category**](../Model/\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Category.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Model\Category**](../Model/Category.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Category**](../Model/Category.md)
 
 ### Authorization
 
@@ -322,7 +322,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementCategoriesPost**
-> \Spinen\ConnectWise\Clients\Procurement\Model\Category procurementCategoriesPost($category)
+> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Category procurementCategoriesPost($category)
 
 
 
@@ -338,7 +338,7 @@ Spinen\ConnectWise\Clients\Procurement\Configuration::getDefaultConfiguration()-
 Spinen\ConnectWise\Clients\Procurement\Configuration::getDefaultConfiguration()->setPassword('YOUR_PASSWORD');
 
 $api_instance = new Spinen\ConnectWise\Clients\Procurement\Api\CategoriesApi();
-$category = new \Spinen\ConnectWise\Clients\Procurement\Model\Category(); // \Spinen\ConnectWise\Clients\Procurement\Model\Category | 
+$category = new \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Category(); // \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Category | 
 
 try {
     $result = $api_instance->procurementCategoriesPost($category);
@@ -353,11 +353,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **category** | [**\Spinen\ConnectWise\Clients\Procurement\Model\Category**](../Model/\Spinen\ConnectWise\Clients\Procurement\Model\Category.md)|  |
+ **category** | [**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Category**](../Model/\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Category.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Model\Category**](../Model/Category.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Category**](../Model/Category.md)
 
 ### Authorization
 

@@ -15,7 +15,7 @@ Method | HTTP request | Description
 
 
 # **procurementProductsIdPickingShippingDetailsCountGet**
-> \Spinen\ConnectWise\Clients\Procurement\Model\Count procurementProductsIdPickingShippingDetailsCountGet($id, $conditions)
+> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Count procurementProductsIdPickingShippingDetailsCountGet($id, $conditions)
 
 
 
@@ -52,7 +52,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -66,7 +66,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementProductsIdPickingShippingDetailsGet**
-> \Spinen\ConnectWise\Clients\Procurement\Model\ProductPickingShippingDetail[] procurementProductsIdPickingShippingDetailsGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ProductPickingShippingDetail[] procurementProductsIdPickingShippingDetailsGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -113,7 +113,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Model\ProductPickingShippingDetail[]**](../Model/ProductPickingShippingDetail.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ProductPickingShippingDetail[]**](../Model/ProductPickingShippingDetail.md)
 
 ### Authorization
 
@@ -177,7 +177,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementProductsIdPickingShippingDetailsPickingShippingDetailIdGet**
-> \Spinen\ConnectWise\Clients\Procurement\Model\ProductPickingShippingDetail[] procurementProductsIdPickingShippingDetailsPickingShippingDetailIdGet($id, $picking_shipping_detail_id)
+> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ProductPickingShippingDetail[] procurementProductsIdPickingShippingDetailsPickingShippingDetailIdGet($id, $picking_shipping_detail_id)
 
 
 
@@ -214,7 +214,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Model\ProductPickingShippingDetail[]**](../Model/ProductPickingShippingDetail.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ProductPickingShippingDetail[]**](../Model/ProductPickingShippingDetail.md)
 
 ### Authorization
 
@@ -228,7 +228,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementProductsIdPickingShippingDetailsPickingShippingDetailIdPatch**
-> \Spinen\ConnectWise\Clients\Procurement\Model\ProductPickingShippingDetail[] procurementProductsIdPickingShippingDetailsPickingShippingDetailIdPatch($id, $picking_shipping_detail_id, $operations)
+> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ProductPickingShippingDetail[] procurementProductsIdPickingShippingDetailsPickingShippingDetailIdPatch($id, $picking_shipping_detail_id, $operations)
 
 
 
@@ -246,7 +246,7 @@ Spinen\ConnectWise\Clients\Procurement\Configuration::getDefaultConfiguration()-
 $api_instance = new Spinen\ConnectWise\Clients\Procurement\Api\ProductPickingShippingDetailsApi();
 $id = 56; // int | 
 $picking_shipping_detail_id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->procurementProductsIdPickingShippingDetailsPickingShippingDetailIdPatch($id, $picking_shipping_detail_id, $operations);
@@ -263,11 +263,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **picking_shipping_detail_id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Model\ProductPickingShippingDetail[]**](../Model/ProductPickingShippingDetail.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ProductPickingShippingDetail[]**](../Model/ProductPickingShippingDetail.md)
 
 ### Authorization
 
@@ -281,7 +281,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementProductsIdPickingShippingDetailsPickingShippingDetailIdPut**
-> \Spinen\ConnectWise\Clients\Procurement\Model\ProductPickingShippingDetail[] procurementProductsIdPickingShippingDetailsPickingShippingDetailIdPut($id, $picking_shipping_detail_id, $product_picking_shipping_details)
+> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ProductPickingShippingDetail[] procurementProductsIdPickingShippingDetailsPickingShippingDetailIdPut($id, $picking_shipping_detail_id, $product_picking_shipping_details)
 
 
 
@@ -299,7 +299,7 @@ Spinen\ConnectWise\Clients\Procurement\Configuration::getDefaultConfiguration()-
 $api_instance = new Spinen\ConnectWise\Clients\Procurement\Api\ProductPickingShippingDetailsApi();
 $id = 56; // int | 
 $picking_shipping_detail_id = 56; // int | 
-$product_picking_shipping_details = new \Spinen\ConnectWise\Clients\Procurement\Model\ProductPickingShippingDetail(); // \Spinen\ConnectWise\Clients\Procurement\Model\ProductPickingShippingDetail | 
+$product_picking_shipping_details = new \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ProductPickingShippingDetail(); // \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ProductPickingShippingDetail | 
 
 try {
     $result = $api_instance->procurementProductsIdPickingShippingDetailsPickingShippingDetailIdPut($id, $picking_shipping_detail_id, $product_picking_shipping_details);
@@ -316,11 +316,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **picking_shipping_detail_id** | **int**|  |
- **product_picking_shipping_details** | [**\Spinen\ConnectWise\Clients\Procurement\Model\ProductPickingShippingDetail**](../Model/\Spinen\ConnectWise\Clients\Procurement\Model\ProductPickingShippingDetail.md)|  |
+ **product_picking_shipping_details** | [**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ProductPickingShippingDetail**](../Model/\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ProductPickingShippingDetail.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Model\ProductPickingShippingDetail[]**](../Model/ProductPickingShippingDetail.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ProductPickingShippingDetail[]**](../Model/ProductPickingShippingDetail.md)
 
 ### Authorization
 
@@ -334,7 +334,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementProductsIdPickingShippingDetailsPost**
-> \Spinen\ConnectWise\Clients\Procurement\Model\ProductPickingShippingDetail[] procurementProductsIdPickingShippingDetailsPost($id, $product_picking_shipping_details)
+> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ProductPickingShippingDetail[] procurementProductsIdPickingShippingDetailsPost($id, $product_picking_shipping_details)
 
 
 
@@ -351,7 +351,7 @@ Spinen\ConnectWise\Clients\Procurement\Configuration::getDefaultConfiguration()-
 
 $api_instance = new Spinen\ConnectWise\Clients\Procurement\Api\ProductPickingShippingDetailsApi();
 $id = 56; // int | 
-$product_picking_shipping_details = new \Spinen\ConnectWise\Clients\Procurement\Model\ProductPickingShippingDetail(); // \Spinen\ConnectWise\Clients\Procurement\Model\ProductPickingShippingDetail | 
+$product_picking_shipping_details = new \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ProductPickingShippingDetail(); // \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ProductPickingShippingDetail | 
 
 try {
     $result = $api_instance->procurementProductsIdPickingShippingDetailsPost($id, $product_picking_shipping_details);
@@ -367,11 +367,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **product_picking_shipping_details** | [**\Spinen\ConnectWise\Clients\Procurement\Model\ProductPickingShippingDetail**](../Model/\Spinen\ConnectWise\Clients\Procurement\Model\ProductPickingShippingDetail.md)|  |
+ **product_picking_shipping_details** | [**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ProductPickingShippingDetail**](../Model/\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ProductPickingShippingDetail.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Model\ProductPickingShippingDetail[]**](../Model/ProductPickingShippingDetail.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ProductPickingShippingDetail[]**](../Model/ProductPickingShippingDetail.md)
 
 ### Authorization
 

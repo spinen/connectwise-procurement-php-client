@@ -15,7 +15,7 @@ Method | HTTP request | Description
 
 
 # **procurementPricingschedulesIdDetailsCountGet**
-> \Spinen\ConnectWise\Clients\Procurement\Model\Count procurementPricingschedulesIdDetailsCountGet($id, $conditions)
+> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Count procurementPricingschedulesIdDetailsCountGet($id, $conditions)
 
 
 
@@ -52,7 +52,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -116,7 +116,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementPricingschedulesIdDetailsDetailIDGet**
-> \Spinen\ConnectWise\Clients\Procurement\Model\PricingDetail procurementPricingschedulesIdDetailsDetailIDGet($id, $detail_id)
+> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PricingDetail procurementPricingschedulesIdDetailsDetailIDGet($id, $detail_id)
 
 
 
@@ -153,7 +153,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Model\PricingDetail**](../Model/PricingDetail.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PricingDetail**](../Model/PricingDetail.md)
 
 ### Authorization
 
@@ -167,7 +167,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementPricingschedulesIdDetailsDetailIDPatch**
-> \Spinen\ConnectWise\Clients\Procurement\Model\PricingDetail procurementPricingschedulesIdDetailsDetailIDPatch($id, $detail_id, $operations)
+> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PricingDetail procurementPricingschedulesIdDetailsDetailIDPatch($id, $detail_id, $operations)
 
 
 
@@ -185,7 +185,7 @@ Spinen\ConnectWise\Clients\Procurement\Configuration::getDefaultConfiguration()-
 $api_instance = new Spinen\ConnectWise\Clients\Procurement\Api\PricingDetailsApi();
 $id = 56; // int | 
 $detail_id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->procurementPricingschedulesIdDetailsDetailIDPatch($id, $detail_id, $operations);
@@ -202,11 +202,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **detail_id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Model\PricingDetail**](../Model/PricingDetail.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PricingDetail**](../Model/PricingDetail.md)
 
 ### Authorization
 
@@ -220,7 +220,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementPricingschedulesIdDetailsDetailIDPut**
-> \Spinen\ConnectWise\Clients\Procurement\Model\PricingDetail procurementPricingschedulesIdDetailsDetailIDPut($id, $detail_id, $pricing_detail)
+> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PricingDetail procurementPricingschedulesIdDetailsDetailIDPut($id, $detail_id, $pricing_detail)
 
 
 
@@ -238,7 +238,7 @@ Spinen\ConnectWise\Clients\Procurement\Configuration::getDefaultConfiguration()-
 $api_instance = new Spinen\ConnectWise\Clients\Procurement\Api\PricingDetailsApi();
 $id = 56; // int | 
 $detail_id = 56; // int | 
-$pricing_detail = new \Spinen\ConnectWise\Clients\Procurement\Model\PricingDetail(); // \Spinen\ConnectWise\Clients\Procurement\Model\PricingDetail | 
+$pricing_detail = new \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PricingDetail(); // \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PricingDetail | 
 
 try {
     $result = $api_instance->procurementPricingschedulesIdDetailsDetailIDPut($id, $detail_id, $pricing_detail);
@@ -255,11 +255,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **detail_id** | **int**|  |
- **pricing_detail** | [**\Spinen\ConnectWise\Clients\Procurement\Model\PricingDetail**](../Model/\Spinen\ConnectWise\Clients\Procurement\Model\PricingDetail.md)|  |
+ **pricing_detail** | [**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PricingDetail**](../Model/\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PricingDetail.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Model\PricingDetail**](../Model/PricingDetail.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PricingDetail**](../Model/PricingDetail.md)
 
 ### Authorization
 
@@ -273,7 +273,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementPricingschedulesIdDetailsGet**
-> \Spinen\ConnectWise\Clients\Procurement\Model\PricingDetail[] procurementPricingschedulesIdDetailsGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PricingDetail[] procurementPricingschedulesIdDetailsGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -320,7 +320,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Model\PricingDetail[]**](../Model/PricingDetail.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PricingDetail[]**](../Model/PricingDetail.md)
 
 ### Authorization
 
@@ -334,7 +334,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementPricingschedulesIdDetailsPost**
-> \Spinen\ConnectWise\Clients\Procurement\Model\PricingDetail procurementPricingschedulesIdDetailsPost($id, $pricing_detail)
+> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PricingDetail procurementPricingschedulesIdDetailsPost($id, $pricing_detail)
 
 
 
@@ -351,7 +351,7 @@ Spinen\ConnectWise\Clients\Procurement\Configuration::getDefaultConfiguration()-
 
 $api_instance = new Spinen\ConnectWise\Clients\Procurement\Api\PricingDetailsApi();
 $id = 56; // int | 
-$pricing_detail = new \Spinen\ConnectWise\Clients\Procurement\Model\PricingDetail(); // \Spinen\ConnectWise\Clients\Procurement\Model\PricingDetail | 
+$pricing_detail = new \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PricingDetail(); // \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PricingDetail | 
 
 try {
     $result = $api_instance->procurementPricingschedulesIdDetailsPost($id, $pricing_detail);
@@ -367,11 +367,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **pricing_detail** | [**\Spinen\ConnectWise\Clients\Procurement\Model\PricingDetail**](../Model/\Spinen\ConnectWise\Clients\Procurement\Model\PricingDetail.md)|  |
+ **pricing_detail** | [**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PricingDetail**](../Model/\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PricingDetail.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Model\PricingDetail**](../Model/PricingDetail.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PricingDetail**](../Model/PricingDetail.md)
 
 ### Authorization
 

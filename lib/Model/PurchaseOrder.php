@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Procurement\Model;
+namespace Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model;
 
 use \ArrayAccess;
 
@@ -56,18 +56,18 @@ class PurchaseOrder implements ArrayAccess
       */
     protected static $swaggerTypes = [
         'id' => 'int',
-        '_info' => '\Spinen\ConnectWise\Clients\Procurement\Model\Metadata',
+        '_info' => '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Metadata',
         'business_unit_id' => 'int',
         'cancel_reason' => 'string',
         'closed_flag' => 'bool',
         'customer_city' => 'string',
-        'customer_company' => '\Spinen\ConnectWise\Clients\Procurement\Model\CompanyReference',
-        'customer_contact' => '\Spinen\ConnectWise\Clients\Procurement\Model\ContactReference',
-        'customer_country' => '\Spinen\ConnectWise\Clients\Procurement\Model\CountryReference',
+        'customer_company' => '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CompanyReference',
+        'customer_contact' => '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ContactReference',
+        'customer_country' => '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CountryReference',
         'customer_extension' => 'string',
         'customer_name' => 'string',
         'customer_phone' => 'string',
-        'customer_site' => '\Spinen\ConnectWise\Clients\Procurement\Model\SiteReference',
+        'customer_site' => '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\SiteReference',
         'customer_site_name' => 'string',
         'customer_state' => 'string',
         'customer_street_line1' => 'string',
@@ -85,25 +85,25 @@ class PurchaseOrder implements ArrayAccess
         'po_number' => 'string',
         'sales_tax' => 'double',
         'shipment_date' => '\DateTime',
-        'shipment_method' => '\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethodReference',
+        'shipment_method' => '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethodReference',
         'shipping_instructions' => 'string',
-        'status' => '\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrderStatusReference',
+        'status' => '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrderStatusReference',
         'sub_total' => 'double',
-        'tax_code' => '\Spinen\ConnectWise\Clients\Procurement\Model\TaxCodeReference',
+        'tax_code' => '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\TaxCodeReference',
         'tax_freight_flag' => 'bool',
         'tax_po_flag' => 'bool',
-        'terms' => '\Spinen\ConnectWise\Clients\Procurement\Model\BillingTermsReference',
+        'terms' => '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\BillingTermsReference',
         'total' => 'double',
         'tracking_number' => 'string',
         'update_shipment_info' => 'bool',
         'update_vendor_order_number' => 'bool',
-        'vendor_company' => '\Spinen\ConnectWise\Clients\Procurement\Model\CompanyReference',
-        'vendor_contact' => '\Spinen\ConnectWise\Clients\Procurement\Model\ContactReference',
+        'vendor_company' => '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CompanyReference',
+        'vendor_contact' => '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ContactReference',
         'vendor_invoice_date' => '\DateTime',
         'vendor_invoice_number' => 'string',
         'vendor_order_number' => 'string',
-        'vendor_site' => '\Spinen\ConnectWise\Clients\Procurement\Model\SiteReference',
-        'warehouse' => '\Spinen\ConnectWise\Clients\Procurement\Model\WarehouseReference'
+        'vendor_site' => '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\SiteReference',
+        'warehouse' => '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\WarehouseReference'
     ];
 
     public static function swaggerTypes()
@@ -461,7 +461,7 @@ class PurchaseOrder implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Procurement\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Metadata
      */
     public function getInfo()
     {
@@ -470,7 +470,7 @@ class PurchaseOrder implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Procurement\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)
@@ -566,7 +566,7 @@ class PurchaseOrder implements ArrayAccess
 
     /**
      * Gets customer_company
-     * @return \Spinen\ConnectWise\Clients\Procurement\Model\CompanyReference
+     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CompanyReference
      */
     public function getCustomerCompany()
     {
@@ -575,7 +575,7 @@ class PurchaseOrder implements ArrayAccess
 
     /**
      * Sets customer_company
-     * @param \Spinen\ConnectWise\Clients\Procurement\Model\CompanyReference $customer_company
+     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CompanyReference $customer_company
      * @return $this
      */
     public function setCustomerCompany($customer_company)
@@ -587,7 +587,7 @@ class PurchaseOrder implements ArrayAccess
 
     /**
      * Gets customer_contact
-     * @return \Spinen\ConnectWise\Clients\Procurement\Model\ContactReference
+     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ContactReference
      */
     public function getCustomerContact()
     {
@@ -596,7 +596,7 @@ class PurchaseOrder implements ArrayAccess
 
     /**
      * Sets customer_contact
-     * @param \Spinen\ConnectWise\Clients\Procurement\Model\ContactReference $customer_contact
+     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ContactReference $customer_contact
      * @return $this
      */
     public function setCustomerContact($customer_contact)
@@ -608,7 +608,7 @@ class PurchaseOrder implements ArrayAccess
 
     /**
      * Gets customer_country
-     * @return \Spinen\ConnectWise\Clients\Procurement\Model\CountryReference
+     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CountryReference
      */
     public function getCustomerCountry()
     {
@@ -617,7 +617,7 @@ class PurchaseOrder implements ArrayAccess
 
     /**
      * Sets customer_country
-     * @param \Spinen\ConnectWise\Clients\Procurement\Model\CountryReference $customer_country
+     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CountryReference $customer_country
      * @return $this
      */
     public function setCustomerCountry($customer_country)
@@ -692,7 +692,7 @@ class PurchaseOrder implements ArrayAccess
 
     /**
      * Gets customer_site
-     * @return \Spinen\ConnectWise\Clients\Procurement\Model\SiteReference
+     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\SiteReference
      */
     public function getCustomerSite()
     {
@@ -701,7 +701,7 @@ class PurchaseOrder implements ArrayAccess
 
     /**
      * Sets customer_site
-     * @param \Spinen\ConnectWise\Clients\Procurement\Model\SiteReference $customer_site
+     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\SiteReference $customer_site
      * @return $this
      */
     public function setCustomerSite($customer_site)
@@ -1074,7 +1074,7 @@ class PurchaseOrder implements ArrayAccess
 
     /**
      * Gets shipment_method
-     * @return \Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethodReference
+     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethodReference
      */
     public function getShipmentMethod()
     {
@@ -1083,7 +1083,7 @@ class PurchaseOrder implements ArrayAccess
 
     /**
      * Sets shipment_method
-     * @param \Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethodReference $shipment_method
+     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethodReference $shipment_method
      * @return $this
      */
     public function setShipmentMethod($shipment_method)
@@ -1116,7 +1116,7 @@ class PurchaseOrder implements ArrayAccess
 
     /**
      * Gets status
-     * @return \Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrderStatusReference
+     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrderStatusReference
      */
     public function getStatus()
     {
@@ -1125,7 +1125,7 @@ class PurchaseOrder implements ArrayAccess
 
     /**
      * Sets status
-     * @param \Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrderStatusReference $status
+     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrderStatusReference $status
      * @return $this
      */
     public function setStatus($status)
@@ -1158,7 +1158,7 @@ class PurchaseOrder implements ArrayAccess
 
     /**
      * Gets tax_code
-     * @return \Spinen\ConnectWise\Clients\Procurement\Model\TaxCodeReference
+     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\TaxCodeReference
      */
     public function getTaxCode()
     {
@@ -1167,7 +1167,7 @@ class PurchaseOrder implements ArrayAccess
 
     /**
      * Sets tax_code
-     * @param \Spinen\ConnectWise\Clients\Procurement\Model\TaxCodeReference $tax_code
+     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\TaxCodeReference $tax_code
      * @return $this
      */
     public function setTaxCode($tax_code)
@@ -1221,7 +1221,7 @@ class PurchaseOrder implements ArrayAccess
 
     /**
      * Gets terms
-     * @return \Spinen\ConnectWise\Clients\Procurement\Model\BillingTermsReference
+     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\BillingTermsReference
      */
     public function getTerms()
     {
@@ -1230,7 +1230,7 @@ class PurchaseOrder implements ArrayAccess
 
     /**
      * Sets terms
-     * @param \Spinen\ConnectWise\Clients\Procurement\Model\BillingTermsReference $terms
+     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\BillingTermsReference $terms
      * @return $this
      */
     public function setTerms($terms)
@@ -1330,7 +1330,7 @@ class PurchaseOrder implements ArrayAccess
 
     /**
      * Gets vendor_company
-     * @return \Spinen\ConnectWise\Clients\Procurement\Model\CompanyReference
+     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CompanyReference
      */
     public function getVendorCompany()
     {
@@ -1339,7 +1339,7 @@ class PurchaseOrder implements ArrayAccess
 
     /**
      * Sets vendor_company
-     * @param \Spinen\ConnectWise\Clients\Procurement\Model\CompanyReference $vendor_company
+     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CompanyReference $vendor_company
      * @return $this
      */
     public function setVendorCompany($vendor_company)
@@ -1351,7 +1351,7 @@ class PurchaseOrder implements ArrayAccess
 
     /**
      * Gets vendor_contact
-     * @return \Spinen\ConnectWise\Clients\Procurement\Model\ContactReference
+     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ContactReference
      */
     public function getVendorContact()
     {
@@ -1360,7 +1360,7 @@ class PurchaseOrder implements ArrayAccess
 
     /**
      * Sets vendor_contact
-     * @param \Spinen\ConnectWise\Clients\Procurement\Model\ContactReference $vendor_contact
+     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ContactReference $vendor_contact
      * @return $this
      */
     public function setVendorContact($vendor_contact)
@@ -1443,7 +1443,7 @@ class PurchaseOrder implements ArrayAccess
 
     /**
      * Gets vendor_site
-     * @return \Spinen\ConnectWise\Clients\Procurement\Model\SiteReference
+     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\SiteReference
      */
     public function getVendorSite()
     {
@@ -1452,7 +1452,7 @@ class PurchaseOrder implements ArrayAccess
 
     /**
      * Sets vendor_site
-     * @param \Spinen\ConnectWise\Clients\Procurement\Model\SiteReference $vendor_site
+     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\SiteReference $vendor_site
      * @return $this
      */
     public function setVendorSite($vendor_site)
@@ -1464,7 +1464,7 @@ class PurchaseOrder implements ArrayAccess
 
     /**
      * Gets warehouse
-     * @return \Spinen\ConnectWise\Clients\Procurement\Model\WarehouseReference
+     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\WarehouseReference
      */
     public function getWarehouse()
     {
@@ -1473,7 +1473,7 @@ class PurchaseOrder implements ArrayAccess
 
     /**
      * Sets warehouse
-     * @param \Spinen\ConnectWise\Clients\Procurement\Model\WarehouseReference $warehouse
+     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\WarehouseReference $warehouse
      * @return $this
      */
     public function setWarehouse($warehouse)

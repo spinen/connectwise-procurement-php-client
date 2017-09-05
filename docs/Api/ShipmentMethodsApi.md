@@ -15,7 +15,7 @@ Method | HTTP request | Description
 
 
 # **procurementShipmentmethodsCountGet**
-> \Spinen\ConnectWise\Clients\Procurement\Model\Count procurementShipmentmethodsCountGet($conditions)
+> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Count procurementShipmentmethodsCountGet($conditions)
 
 
 
@@ -50,7 +50,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -64,7 +64,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementShipmentmethodsGet**
-> \Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod[] procurementShipmentmethodsGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod[] procurementShipmentmethodsGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -109,7 +109,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod[]**](../Model/ShipmentMethod.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod[]**](../Model/ShipmentMethod.md)
 
 ### Authorization
 
@@ -171,7 +171,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementShipmentmethodsIdGet**
-> \Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod procurementShipmentmethodsIdGet($id)
+> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod procurementShipmentmethodsIdGet($id)
 
 
 
@@ -206,7 +206,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod**](../Model/ShipmentMethod.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod**](../Model/ShipmentMethod.md)
 
 ### Authorization
 
@@ -220,7 +220,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementShipmentmethodsIdPatch**
-> \Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod procurementShipmentmethodsIdPatch($id, $operations)
+> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod procurementShipmentmethodsIdPatch($id, $operations)
 
 
 
@@ -237,7 +237,7 @@ Spinen\ConnectWise\Clients\Procurement\Configuration::getDefaultConfiguration()-
 
 $api_instance = new Spinen\ConnectWise\Clients\Procurement\Api\ShipmentMethodsApi();
 $id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->procurementShipmentmethodsIdPatch($id, $operations);
@@ -253,11 +253,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod**](../Model/ShipmentMethod.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod**](../Model/ShipmentMethod.md)
 
 ### Authorization
 
@@ -271,7 +271,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementShipmentmethodsIdPut**
-> \Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod procurementShipmentmethodsIdPut($id, $shipment_method)
+> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod procurementShipmentmethodsIdPut($id, $shipment_method)
 
 
 
@@ -288,7 +288,7 @@ Spinen\ConnectWise\Clients\Procurement\Configuration::getDefaultConfiguration()-
 
 $api_instance = new Spinen\ConnectWise\Clients\Procurement\Api\ShipmentMethodsApi();
 $id = 56; // int | 
-$shipment_method = new \Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod(); // \Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod | 
+$shipment_method = new \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod(); // \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod | 
 
 try {
     $result = $api_instance->procurementShipmentmethodsIdPut($id, $shipment_method);
@@ -304,11 +304,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **shipment_method** | [**\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod**](../Model/\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod.md)|  |
+ **shipment_method** | [**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod**](../Model/\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod**](../Model/ShipmentMethod.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod**](../Model/ShipmentMethod.md)
 
 ### Authorization
 
@@ -322,7 +322,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementShipmentmethodsPost**
-> \Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod procurementShipmentmethodsPost($shipment_method)
+> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod procurementShipmentmethodsPost($shipment_method)
 
 
 
@@ -338,7 +338,7 @@ Spinen\ConnectWise\Clients\Procurement\Configuration::getDefaultConfiguration()-
 Spinen\ConnectWise\Clients\Procurement\Configuration::getDefaultConfiguration()->setPassword('YOUR_PASSWORD');
 
 $api_instance = new Spinen\ConnectWise\Clients\Procurement\Api\ShipmentMethodsApi();
-$shipment_method = new \Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod(); // \Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod | 
+$shipment_method = new \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod(); // \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod | 
 
 try {
     $result = $api_instance->procurementShipmentmethodsPost($shipment_method);
@@ -353,11 +353,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **shipment_method** | [**\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod**](../Model/\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod.md)|  |
+ **shipment_method** | [**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod**](../Model/\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod**](../Model/ShipmentMethod.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethod**](../Model/ShipmentMethod.md)
 
 ### Authorization
 

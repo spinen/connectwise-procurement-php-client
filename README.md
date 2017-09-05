@@ -190,6 +190,20 @@ Class | Method | HTTP request | Description
 *PurchaseOrdersApi* | [**procurementPurchaseordersIdPatch**](docs/Api/PurchaseOrdersApi.md#procurementpurchaseordersidpatch) | **PATCH** /procurement/purchaseorders/{id} | 
 *PurchaseOrdersApi* | [**procurementPurchaseordersIdPut**](docs/Api/PurchaseOrdersApi.md#procurementpurchaseordersidput) | **PUT** /procurement/purchaseorders/{id} | 
 *PurchaseOrdersApi* | [**procurementPurchaseordersPost**](docs/Api/PurchaseOrdersApi.md#procurementpurchaseorderspost) | **POST** /procurement/purchaseorders | 
+*RMAActionsApi* | [**procurementRmaActionsCountGet**](docs/Api/RMAActionsApi.md#procurementrmaactionscountget) | **GET** /procurement/rmaActions/count | 
+*RMAActionsApi* | [**procurementRmaActionsGet**](docs/Api/RMAActionsApi.md#procurementrmaactionsget) | **GET** /procurement/rmaActions | 
+*RMAActionsApi* | [**procurementRmaActionsIdDelete**](docs/Api/RMAActionsApi.md#procurementrmaactionsiddelete) | **DELETE** /procurement/rmaActions/{id} | 
+*RMAActionsApi* | [**procurementRmaActionsIdGet**](docs/Api/RMAActionsApi.md#procurementrmaactionsidget) | **GET** /procurement/rmaActions/{id} | 
+*RMAActionsApi* | [**procurementRmaActionsIdPatch**](docs/Api/RMAActionsApi.md#procurementrmaactionsidpatch) | **PATCH** /procurement/rmaActions/{id} | 
+*RMAActionsApi* | [**procurementRmaActionsIdPut**](docs/Api/RMAActionsApi.md#procurementrmaactionsidput) | **PUT** /procurement/rmaActions/{id} | 
+*RMAActionsApi* | [**procurementRmaActionsPost**](docs/Api/RMAActionsApi.md#procurementrmaactionspost) | **POST** /procurement/rmaActions | 
+*RMADispositionsApi* | [**procurementRMADispositionsCountGet**](docs/Api/RMADispositionsApi.md#procurementrmadispositionscountget) | **GET** /procurement/RMADispositions/count | 
+*RMADispositionsApi* | [**procurementRMADispositionsGet**](docs/Api/RMADispositionsApi.md#procurementrmadispositionsget) | **GET** /procurement/RMADispositions | 
+*RMADispositionsApi* | [**procurementRMADispositionsIdDelete**](docs/Api/RMADispositionsApi.md#procurementrmadispositionsiddelete) | **DELETE** /procurement/RMADispositions/{id} | 
+*RMADispositionsApi* | [**procurementRMADispositionsIdGet**](docs/Api/RMADispositionsApi.md#procurementrmadispositionsidget) | **GET** /procurement/RMADispositions/{id} | 
+*RMADispositionsApi* | [**procurementRMADispositionsIdPatch**](docs/Api/RMADispositionsApi.md#procurementrmadispositionsidpatch) | **PATCH** /procurement/RMADispositions/{id} | 
+*RMADispositionsApi* | [**procurementRMADispositionsIdPut**](docs/Api/RMADispositionsApi.md#procurementrmadispositionsidput) | **PUT** /procurement/RMADispositions/{id} | 
+*RMADispositionsApi* | [**procurementRMADispositionsPost**](docs/Api/RMADispositionsApi.md#procurementrmadispositionspost) | **POST** /procurement/RMADispositions | 
 *ShipmentMethodsApi* | [**procurementShipmentmethodsCountGet**](docs/Api/ShipmentMethodsApi.md#procurementshipmentmethodscountget) | **GET** /procurement/shipmentmethods/count | 
 *ShipmentMethodsApi* | [**procurementShipmentmethodsGet**](docs/Api/ShipmentMethodsApi.md#procurementshipmentmethodsget) | **GET** /procurement/shipmentmethods | 
 *ShipmentMethodsApi* | [**procurementShipmentmethodsIdDelete**](docs/Api/ShipmentMethodsApi.md#procurementshipmentmethodsiddelete) | **DELETE** /procurement/shipmentmethods/{id} | 
@@ -261,6 +275,8 @@ Class | Method | HTTP request | Description
  - [PurchaseOrder](docs/Model/PurchaseOrder.md)
  - [PurchaseOrderLineItem](docs/Model/PurchaseOrderLineItem.md)
  - [PurchaseOrderStatusReference](docs/Model/PurchaseOrderStatusReference.md)
+ - [RMAAction](docs/Model/RMAAction.md)
+ - [RMADisposition](docs/Model/RMADisposition.md)
  - [SLAReference](docs/Model/SLAReference.md)
  - [ShipmentMethod](docs/Model/ShipmentMethod.md)
  - [ShipmentMethodReference](docs/Model/ShipmentMethodReference.md)

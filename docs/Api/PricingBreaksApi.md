@@ -67,7 +67,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementPricingschedulesSchedIdDetailsDetailIdBreaksBreakIdGet**
-> \Spinen\ConnectWise\Clients\Procurement\Model\PricingBreak procurementPricingschedulesSchedIdDetailsDetailIdBreaksBreakIdGet($sched_id, $detail_id, $break_id)
+> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PricingBreak procurementPricingschedulesSchedIdDetailsDetailIdBreaksBreakIdGet($sched_id, $detail_id, $break_id)
 
 
 
@@ -106,7 +106,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Model\PricingBreak**](../Model/PricingBreak.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PricingBreak**](../Model/PricingBreak.md)
 
 ### Authorization
 
@@ -120,7 +120,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementPricingschedulesSchedIdDetailsDetailIdBreaksBreakIdPatch**
-> \Spinen\ConnectWise\Clients\Procurement\Model\PricingBreak procurementPricingschedulesSchedIdDetailsDetailIdBreaksBreakIdPatch($sched_id, $detail_id, $break_id, $operations)
+> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PricingBreak procurementPricingschedulesSchedIdDetailsDetailIdBreaksBreakIdPatch($sched_id, $detail_id, $break_id, $operations)
 
 
 
@@ -139,7 +139,7 @@ $api_instance = new Spinen\ConnectWise\Clients\Procurement\Api\PricingBreaksApi(
 $sched_id = 56; // int | 
 $detail_id = 56; // int | 
 $break_id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->procurementPricingschedulesSchedIdDetailsDetailIdBreaksBreakIdPatch($sched_id, $detail_id, $break_id, $operations);
@@ -157,11 +157,11 @@ Name | Type | Description  | Notes
  **sched_id** | **int**|  |
  **detail_id** | **int**|  |
  **break_id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Model\PricingBreak**](../Model/PricingBreak.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PricingBreak**](../Model/PricingBreak.md)
 
 ### Authorization
 
@@ -175,7 +175,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementPricingschedulesSchedIdDetailsDetailIdBreaksBreakIdPut**
-> \Spinen\ConnectWise\Clients\Procurement\Model\PricingBreak procurementPricingschedulesSchedIdDetailsDetailIdBreaksBreakIdPut($sched_id, $detail_id, $break_id, $pricing_break)
+> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PricingBreak procurementPricingschedulesSchedIdDetailsDetailIdBreaksBreakIdPut($sched_id, $detail_id, $break_id, $pricing_break)
 
 
 
@@ -194,7 +194,7 @@ $api_instance = new Spinen\ConnectWise\Clients\Procurement\Api\PricingBreaksApi(
 $sched_id = 56; // int | 
 $detail_id = 56; // int | 
 $break_id = 56; // int | 
-$pricing_break = new \Spinen\ConnectWise\Clients\Procurement\Model\PricingBreak(); // \Spinen\ConnectWise\Clients\Procurement\Model\PricingBreak | 
+$pricing_break = new \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PricingBreak(); // \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PricingBreak | 
 
 try {
     $result = $api_instance->procurementPricingschedulesSchedIdDetailsDetailIdBreaksBreakIdPut($sched_id, $detail_id, $break_id, $pricing_break);
@@ -212,11 +212,11 @@ Name | Type | Description  | Notes
  **sched_id** | **int**|  |
  **detail_id** | **int**|  |
  **break_id** | **int**|  |
- **pricing_break** | [**\Spinen\ConnectWise\Clients\Procurement\Model\PricingBreak**](../Model/\Spinen\ConnectWise\Clients\Procurement\Model\PricingBreak.md)|  |
+ **pricing_break** | [**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PricingBreak**](../Model/\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PricingBreak.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Model\PricingBreak**](../Model/PricingBreak.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PricingBreak**](../Model/PricingBreak.md)
 
 ### Authorization
 
@@ -230,7 +230,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementPricingschedulesSchedIdDetailsDetailIdBreaksCountGet**
-> \Spinen\ConnectWise\Clients\Procurement\Model\Count procurementPricingschedulesSchedIdDetailsDetailIdBreaksCountGet($sched_id, $detail_id, $conditions)
+> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Count procurementPricingschedulesSchedIdDetailsDetailIdBreaksCountGet($sched_id, $detail_id, $conditions)
 
 
 
@@ -269,7 +269,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -283,7 +283,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementPricingschedulesSchedIdDetailsDetailIdBreaksGet**
-> \Spinen\ConnectWise\Clients\Procurement\Model\PricingBreak[] procurementPricingschedulesSchedIdDetailsDetailIdBreaksGet($sched_id, $detail_id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PricingBreak[] procurementPricingschedulesSchedIdDetailsDetailIdBreaksGet($sched_id, $detail_id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -332,7 +332,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Model\PricingBreak[]**](../Model/PricingBreak.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PricingBreak[]**](../Model/PricingBreak.md)
 
 ### Authorization
 
@@ -346,7 +346,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementPricingschedulesSchedIdDetailsDetailIdBreaksPost**
-> \Spinen\ConnectWise\Clients\Procurement\Model\PricingBreak procurementPricingschedulesSchedIdDetailsDetailIdBreaksPost($sched_id, $detail_id, $pricing_break)
+> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PricingBreak procurementPricingschedulesSchedIdDetailsDetailIdBreaksPost($sched_id, $detail_id, $pricing_break)
 
 
 
@@ -364,7 +364,7 @@ Spinen\ConnectWise\Clients\Procurement\Configuration::getDefaultConfiguration()-
 $api_instance = new Spinen\ConnectWise\Clients\Procurement\Api\PricingBreaksApi();
 $sched_id = 56; // int | 
 $detail_id = 56; // int | 
-$pricing_break = new \Spinen\ConnectWise\Clients\Procurement\Model\PricingBreak(); // \Spinen\ConnectWise\Clients\Procurement\Model\PricingBreak | 
+$pricing_break = new \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PricingBreak(); // \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PricingBreak | 
 
 try {
     $result = $api_instance->procurementPricingschedulesSchedIdDetailsDetailIdBreaksPost($sched_id, $detail_id, $pricing_break);
@@ -381,11 +381,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **sched_id** | **int**|  |
  **detail_id** | **int**|  |
- **pricing_break** | [**\Spinen\ConnectWise\Clients\Procurement\Model\PricingBreak**](../Model/\Spinen\ConnectWise\Clients\Procurement\Model\PricingBreak.md)|  |
+ **pricing_break** | [**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PricingBreak**](../Model/\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PricingBreak.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Model\PricingBreak**](../Model/PricingBreak.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PricingBreak**](../Model/PricingBreak.md)
 
 ### Authorization
 

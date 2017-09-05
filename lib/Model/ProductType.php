@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Procurement\Model;
+namespace Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model;
 
 use \ArrayAccess;
 
@@ -59,7 +59,7 @@ class ProductType implements ArrayAccess
         'name' => 'string',
         'inactive_flag' => 'bool',
         'type_xref' => 'string',
-        '_info' => '\Spinen\ConnectWise\Clients\Procurement\Model\Metadata'
+        '_info' => '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Metadata'
     ];
 
     public static function swaggerTypes()
@@ -300,7 +300,7 @@ class ProductType implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Procurement\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Metadata
      */
     public function getInfo()
     {
@@ -309,7 +309,7 @@ class ProductType implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Procurement\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)

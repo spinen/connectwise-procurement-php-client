@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Procurement\Model;
+namespace Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model;
 
 use \ArrayAccess;
 
@@ -56,16 +56,16 @@ class AdjustmentDetail implements ArrayAccess
       */
     protected static $swaggerTypes = [
         'id' => 'int',
-        'catalog_item' => '\Spinen\ConnectWise\Clients\Procurement\Model\CatalogItemReference',
+        'catalog_item' => '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CatalogItemReference',
         'description' => 'string',
         'quantity_on_hand' => 'double',
         'unit_cost' => 'double',
-        'warehouse' => '\Spinen\ConnectWise\Clients\Procurement\Model\WarehouseReference',
-        'warehouse_bin' => '\Spinen\ConnectWise\Clients\Procurement\Model\WarehouseBinReference',
+        'warehouse' => '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\WarehouseReference',
+        'warehouse_bin' => '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\WarehouseBinReference',
         'quantity_adjusted' => 'int',
         'serial_number' => 'string',
-        'adjustment' => '\Spinen\ConnectWise\Clients\Procurement\Model\AdjustmentReference',
-        '_info' => '\Spinen\ConnectWise\Clients\Procurement\Model\Metadata'
+        'adjustment' => '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\AdjustmentReference',
+        '_info' => '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Metadata'
     ];
 
     public static function swaggerTypes()
@@ -257,7 +257,7 @@ class AdjustmentDetail implements ArrayAccess
 
     /**
      * Gets catalog_item
-     * @return \Spinen\ConnectWise\Clients\Procurement\Model\CatalogItemReference
+     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CatalogItemReference
      */
     public function getCatalogItem()
     {
@@ -266,7 +266,7 @@ class AdjustmentDetail implements ArrayAccess
 
     /**
      * Sets catalog_item
-     * @param \Spinen\ConnectWise\Clients\Procurement\Model\CatalogItemReference $catalog_item
+     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CatalogItemReference $catalog_item
      * @return $this
      */
     public function setCatalogItem($catalog_item)
@@ -345,7 +345,7 @@ class AdjustmentDetail implements ArrayAccess
 
     /**
      * Gets warehouse
-     * @return \Spinen\ConnectWise\Clients\Procurement\Model\WarehouseReference
+     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\WarehouseReference
      */
     public function getWarehouse()
     {
@@ -354,7 +354,7 @@ class AdjustmentDetail implements ArrayAccess
 
     /**
      * Sets warehouse
-     * @param \Spinen\ConnectWise\Clients\Procurement\Model\WarehouseReference $warehouse
+     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\WarehouseReference $warehouse
      * @return $this
      */
     public function setWarehouse($warehouse)
@@ -366,7 +366,7 @@ class AdjustmentDetail implements ArrayAccess
 
     /**
      * Gets warehouse_bin
-     * @return \Spinen\ConnectWise\Clients\Procurement\Model\WarehouseBinReference
+     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\WarehouseBinReference
      */
     public function getWarehouseBin()
     {
@@ -375,7 +375,7 @@ class AdjustmentDetail implements ArrayAccess
 
     /**
      * Sets warehouse_bin
-     * @param \Spinen\ConnectWise\Clients\Procurement\Model\WarehouseBinReference $warehouse_bin
+     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\WarehouseBinReference $warehouse_bin
      * @return $this
      */
     public function setWarehouseBin($warehouse_bin)
@@ -433,7 +433,7 @@ class AdjustmentDetail implements ArrayAccess
 
     /**
      * Gets adjustment
-     * @return \Spinen\ConnectWise\Clients\Procurement\Model\AdjustmentReference
+     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\AdjustmentReference
      */
     public function getAdjustment()
     {
@@ -442,7 +442,7 @@ class AdjustmentDetail implements ArrayAccess
 
     /**
      * Sets adjustment
-     * @param \Spinen\ConnectWise\Clients\Procurement\Model\AdjustmentReference $adjustment
+     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\AdjustmentReference $adjustment
      * @return $this
      */
     public function setAdjustment($adjustment)
@@ -454,7 +454,7 @@ class AdjustmentDetail implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Procurement\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Metadata
      */
     public function getInfo()
     {
@@ -463,7 +463,7 @@ class AdjustmentDetail implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Procurement\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)

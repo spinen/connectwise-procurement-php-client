@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Procurement\Model;
+namespace Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model;
 
 use \ArrayAccess;
 
@@ -69,21 +69,21 @@ class PurchaseOrderLineItem implements ArrayAccess
         'internal_notes' => 'string',
         'line_number' => 'int',
         'packing_slip' => 'string',
-        'product' => '\Spinen\ConnectWise\Clients\Procurement\Model\IvItemReference',
+        'product' => '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\IvItemReference',
         'purchase_order_id' => 'int',
         'quantity' => 'double',
         'received_quantity' => 'int',
         'serial_numbers' => 'string',
         'ship_date' => '\DateTime',
-        'shipment_method' => '\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethodReference',
+        'shipment_method' => '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethodReference',
         'tax' => 'double',
         'tracking_number' => 'string',
         'unit_cost' => 'double',
-        'unit_of_measure' => '\Spinen\ConnectWise\Clients\Procurement\Model\UnitOfMeasureReference',
+        'unit_of_measure' => '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\UnitOfMeasureReference',
         'vendor_order_number' => 'string',
-        'warehouse' => '\Spinen\ConnectWise\Clients\Procurement\Model\WarehouseReference',
-        'warehouse_bin' => '\Spinen\ConnectWise\Clients\Procurement\Model\WarehouseBinReference',
-        '_info' => '\Spinen\ConnectWise\Clients\Procurement\Model\Metadata'
+        'warehouse' => '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\WarehouseReference',
+        'warehouse_bin' => '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\WarehouseBinReference',
+        '_info' => '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Metadata'
     ];
 
     public static function swaggerTypes()
@@ -299,8 +299,8 @@ class PurchaseOrderLineItem implements ArrayAccess
         if ($this->container['quantity'] === null) {
             $invalid_properties[] = "'quantity' can't be null";
         }
-        if (!is_null($this->container['serial_numbers']) && (strlen($this->container['serial_numbers']) > 50)) {
-            $invalid_properties[] = "invalid value for 'serial_numbers', the character length must be smaller than or equal to 50.";
+        if (!is_null($this->container['serial_numbers']) && (strlen($this->container['serial_numbers']) > 100)) {
+            $invalid_properties[] = "invalid value for 'serial_numbers', the character length must be smaller than or equal to 100.";
         }
 
         if (!is_null($this->container['tracking_number']) && (strlen($this->container['tracking_number']) > 50)) {
@@ -349,7 +349,7 @@ class PurchaseOrderLineItem implements ArrayAccess
         if ($this->container['quantity'] === null) {
             return false;
         }
-        if (strlen($this->container['serial_numbers']) > 50) {
+        if (strlen($this->container['serial_numbers']) > 100) {
             return false;
         }
         if (strlen($this->container['tracking_number']) > 50) {
@@ -677,7 +677,7 @@ class PurchaseOrderLineItem implements ArrayAccess
 
     /**
      * Gets product
-     * @return \Spinen\ConnectWise\Clients\Procurement\Model\IvItemReference
+     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\IvItemReference
      */
     public function getProduct()
     {
@@ -686,7 +686,7 @@ class PurchaseOrderLineItem implements ArrayAccess
 
     /**
      * Sets product
-     * @param \Spinen\ConnectWise\Clients\Procurement\Model\IvItemReference $product
+     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\IvItemReference $product
      * @return $this
      */
     public function setProduct($product)
@@ -775,8 +775,8 @@ class PurchaseOrderLineItem implements ArrayAccess
      */
     public function setSerialNumbers($serial_numbers)
     {
-        if (!is_null($serial_numbers) && (strlen($serial_numbers) > 50)) {
-            throw new \InvalidArgumentException('invalid length for $serial_numbers when calling PurchaseOrderLineItem., must be smaller than or equal to 50.');
+        if (!is_null($serial_numbers) && (strlen($serial_numbers) > 100)) {
+            throw new \InvalidArgumentException('invalid length for $serial_numbers when calling PurchaseOrderLineItem., must be smaller than or equal to 100.');
         }
 
         $this->container['serial_numbers'] = $serial_numbers;
@@ -807,7 +807,7 @@ class PurchaseOrderLineItem implements ArrayAccess
 
     /**
      * Gets shipment_method
-     * @return \Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethodReference
+     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethodReference
      */
     public function getShipmentMethod()
     {
@@ -816,7 +816,7 @@ class PurchaseOrderLineItem implements ArrayAccess
 
     /**
      * Sets shipment_method
-     * @param \Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethodReference $shipment_method
+     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethodReference $shipment_method
      * @return $this
      */
     public function setShipmentMethod($shipment_method)
@@ -895,7 +895,7 @@ class PurchaseOrderLineItem implements ArrayAccess
 
     /**
      * Gets unit_of_measure
-     * @return \Spinen\ConnectWise\Clients\Procurement\Model\UnitOfMeasureReference
+     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\UnitOfMeasureReference
      */
     public function getUnitOfMeasure()
     {
@@ -904,7 +904,7 @@ class PurchaseOrderLineItem implements ArrayAccess
 
     /**
      * Sets unit_of_measure
-     * @param \Spinen\ConnectWise\Clients\Procurement\Model\UnitOfMeasureReference $unit_of_measure
+     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\UnitOfMeasureReference $unit_of_measure
      * @return $this
      */
     public function setUnitOfMeasure($unit_of_measure)
@@ -941,7 +941,7 @@ class PurchaseOrderLineItem implements ArrayAccess
 
     /**
      * Gets warehouse
-     * @return \Spinen\ConnectWise\Clients\Procurement\Model\WarehouseReference
+     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\WarehouseReference
      */
     public function getWarehouse()
     {
@@ -950,7 +950,7 @@ class PurchaseOrderLineItem implements ArrayAccess
 
     /**
      * Sets warehouse
-     * @param \Spinen\ConnectWise\Clients\Procurement\Model\WarehouseReference $warehouse
+     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\WarehouseReference $warehouse
      * @return $this
      */
     public function setWarehouse($warehouse)
@@ -962,7 +962,7 @@ class PurchaseOrderLineItem implements ArrayAccess
 
     /**
      * Gets warehouse_bin
-     * @return \Spinen\ConnectWise\Clients\Procurement\Model\WarehouseBinReference
+     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\WarehouseBinReference
      */
     public function getWarehouseBin()
     {
@@ -971,7 +971,7 @@ class PurchaseOrderLineItem implements ArrayAccess
 
     /**
      * Sets warehouse_bin
-     * @param \Spinen\ConnectWise\Clients\Procurement\Model\WarehouseBinReference $warehouse_bin
+     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\WarehouseBinReference $warehouse_bin
      * @return $this
      */
     public function setWarehouseBin($warehouse_bin)
@@ -983,7 +983,7 @@ class PurchaseOrderLineItem implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Procurement\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Metadata
      */
     public function getInfo()
     {
@@ -992,7 +992,7 @@ class PurchaseOrderLineItem implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Procurement\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)
