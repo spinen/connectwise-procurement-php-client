@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model;
+namespace Spinen\ConnectWise\Clients\Procurement\Model;
 
 use \ArrayAccess;
 
@@ -58,17 +58,17 @@ class ProductComponent implements ArrayAccess
         'id' => 'int',
         'sequence_number' => 'int',
         'quantity' => 'double',
-        'catalog_item' => '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CatalogItemReference',
+        'catalog_item' => '\Spinen\ConnectWise\Clients\Procurement\Model\CatalogItemReference',
         'hide_price_flag' => 'bool',
         'hide_item_identifier_flag' => 'bool',
         'hide_description_flag' => 'bool',
         'hide_quantity_flag' => 'bool',
-        'vendor' => '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CompanyReference',
-        'parent_product_item' => '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ProductItemReference',
-        'product_item' => '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ProductItemReference',
+        'vendor' => '\Spinen\ConnectWise\Clients\Procurement\Model\CompanyReference',
+        'parent_product_item' => '\Spinen\ConnectWise\Clients\Procurement\Model\ProductItemReference',
+        'product_item' => '\Spinen\ConnectWise\Clients\Procurement\Model\ProductItemReference',
         'price' => 'double',
         'cost' => 'double',
-        '_info' => '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Metadata'
+        '_info' => '\Spinen\ConnectWise\Clients\Procurement\Model\Metadata'
     ];
 
     public static function swaggerTypes()
@@ -288,7 +288,7 @@ class ProductComponent implements ArrayAccess
 
     /**
      * Gets catalog_item
-     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CatalogItemReference
+     * @return \Spinen\ConnectWise\Clients\Procurement\Model\CatalogItemReference
      */
     public function getCatalogItem()
     {
@@ -297,7 +297,7 @@ class ProductComponent implements ArrayAccess
 
     /**
      * Sets catalog_item
-     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CatalogItemReference $catalog_item
+     * @param \Spinen\ConnectWise\Clients\Procurement\Model\CatalogItemReference $catalog_item
      * @return $this
      */
     public function setCatalogItem($catalog_item)
@@ -393,7 +393,7 @@ class ProductComponent implements ArrayAccess
 
     /**
      * Gets vendor
-     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CompanyReference
+     * @return \Spinen\ConnectWise\Clients\Procurement\Model\CompanyReference
      */
     public function getVendor()
     {
@@ -402,7 +402,7 @@ class ProductComponent implements ArrayAccess
 
     /**
      * Sets vendor
-     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CompanyReference $vendor
+     * @param \Spinen\ConnectWise\Clients\Procurement\Model\CompanyReference $vendor
      * @return $this
      */
     public function setVendor($vendor)
@@ -414,7 +414,7 @@ class ProductComponent implements ArrayAccess
 
     /**
      * Gets parent_product_item
-     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ProductItemReference
+     * @return \Spinen\ConnectWise\Clients\Procurement\Model\ProductItemReference
      */
     public function getParentProductItem()
     {
@@ -423,7 +423,7 @@ class ProductComponent implements ArrayAccess
 
     /**
      * Sets parent_product_item
-     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ProductItemReference $parent_product_item
+     * @param \Spinen\ConnectWise\Clients\Procurement\Model\ProductItemReference $parent_product_item
      * @return $this
      */
     public function setParentProductItem($parent_product_item)
@@ -435,7 +435,7 @@ class ProductComponent implements ArrayAccess
 
     /**
      * Gets product_item
-     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ProductItemReference
+     * @return \Spinen\ConnectWise\Clients\Procurement\Model\ProductItemReference
      */
     public function getProductItem()
     {
@@ -444,7 +444,7 @@ class ProductComponent implements ArrayAccess
 
     /**
      * Sets product_item
-     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ProductItemReference $product_item
+     * @param \Spinen\ConnectWise\Clients\Procurement\Model\ProductItemReference $product_item
      * @return $this
      */
     public function setProductItem($product_item)
@@ -498,7 +498,7 @@ class ProductComponent implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Procurement\Model\Metadata
      */
     public function getInfo()
     {
@@ -507,7 +507,7 @@ class ProductComponent implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Procurement\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)

@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model;
+namespace Spinen\ConnectWise\Clients\Procurement\Model;
 
 use \ArrayAccess;
 
@@ -59,28 +59,28 @@ class CatalogItem implements ArrayAccess
         'identifier' => 'string',
         'description' => 'string',
         'inactive_flag' => 'bool',
-        'subcategory' => '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ProductSubCategoryReference',
-        'type' => '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ProductTypeReference',
+        'subcategory' => '\Spinen\ConnectWise\Clients\Procurement\Model\ProductSubCategoryReference',
+        'type' => '\Spinen\ConnectWise\Clients\Procurement\Model\ProductTypeReference',
         'product_class' => 'string',
         'serialized_flag' => 'bool',
         'serialized_cost_flag' => 'bool',
         'phase_product_flag' => 'bool',
-        'unit_of_measure' => '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\UnitOfMeasureReference',
+        'unit_of_measure' => '\Spinen\ConnectWise\Clients\Procurement\Model\UnitOfMeasureReference',
         'min_stock_level' => 'int',
         'price' => 'double',
         'cost' => 'double',
         'price_attribute' => 'string',
         'taxable_flag' => 'bool',
         'customer_description' => 'string',
-        'manufacturer' => '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ManufacturerReference',
+        'manufacturer' => '\Spinen\ConnectWise\Clients\Procurement\Model\ManufacturerReference',
         'manufacturer_part_number' => 'string',
-        'vendor' => '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CompanyReference',
+        'vendor' => '\Spinen\ConnectWise\Clients\Procurement\Model\CompanyReference',
         'vendor_sku' => 'string',
         'notes' => 'string',
         'integration_x_ref' => 'string',
         'date_entered' => 'string',
-        'category' => '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ProductCategoryReference',
-        '_info' => '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Metadata'
+        'category' => '\Spinen\ConnectWise\Clients\Procurement\Model\ProductCategoryReference',
+        '_info' => '\Spinen\ConnectWise\Clients\Procurement\Model\Metadata'
     ];
 
     public static function swaggerTypes()
@@ -493,7 +493,7 @@ class CatalogItem implements ArrayAccess
 
     /**
      * Gets subcategory
-     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ProductSubCategoryReference
+     * @return \Spinen\ConnectWise\Clients\Procurement\Model\ProductSubCategoryReference
      */
     public function getSubcategory()
     {
@@ -502,7 +502,7 @@ class CatalogItem implements ArrayAccess
 
     /**
      * Sets subcategory
-     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ProductSubCategoryReference $subcategory
+     * @param \Spinen\ConnectWise\Clients\Procurement\Model\ProductSubCategoryReference $subcategory
      * @return $this
      */
     public function setSubcategory($subcategory)
@@ -514,7 +514,7 @@ class CatalogItem implements ArrayAccess
 
     /**
      * Gets type
-     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ProductTypeReference
+     * @return \Spinen\ConnectWise\Clients\Procurement\Model\ProductTypeReference
      */
     public function getType()
     {
@@ -523,7 +523,7 @@ class CatalogItem implements ArrayAccess
 
     /**
      * Sets type
-     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ProductTypeReference $type
+     * @param \Spinen\ConnectWise\Clients\Procurement\Model\ProductTypeReference $type
      * @return $this
      */
     public function setType($type)
@@ -623,7 +623,7 @@ class CatalogItem implements ArrayAccess
 
     /**
      * Gets unit_of_measure
-     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\UnitOfMeasureReference
+     * @return \Spinen\ConnectWise\Clients\Procurement\Model\UnitOfMeasureReference
      */
     public function getUnitOfMeasure()
     {
@@ -632,7 +632,7 @@ class CatalogItem implements ArrayAccess
 
     /**
      * Sets unit_of_measure
-     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\UnitOfMeasureReference $unit_of_measure
+     * @param \Spinen\ConnectWise\Clients\Procurement\Model\UnitOfMeasureReference $unit_of_measure
      * @return $this
      */
     public function setUnitOfMeasure($unit_of_measure)
@@ -778,7 +778,7 @@ class CatalogItem implements ArrayAccess
 
     /**
      * Gets manufacturer
-     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ManufacturerReference
+     * @return \Spinen\ConnectWise\Clients\Procurement\Model\ManufacturerReference
      */
     public function getManufacturer()
     {
@@ -787,7 +787,7 @@ class CatalogItem implements ArrayAccess
 
     /**
      * Sets manufacturer
-     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ManufacturerReference $manufacturer
+     * @param \Spinen\ConnectWise\Clients\Procurement\Model\ManufacturerReference $manufacturer
      * @return $this
      */
     public function setManufacturer($manufacturer)
@@ -824,7 +824,7 @@ class CatalogItem implements ArrayAccess
 
     /**
      * Gets vendor
-     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CompanyReference
+     * @return \Spinen\ConnectWise\Clients\Procurement\Model\CompanyReference
      */
     public function getVendor()
     {
@@ -833,7 +833,7 @@ class CatalogItem implements ArrayAccess
 
     /**
      * Sets vendor
-     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CompanyReference $vendor
+     * @param \Spinen\ConnectWise\Clients\Procurement\Model\CompanyReference $vendor
      * @return $this
      */
     public function setVendor($vendor)
@@ -937,7 +937,7 @@ class CatalogItem implements ArrayAccess
 
     /**
      * Gets category
-     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ProductCategoryReference
+     * @return \Spinen\ConnectWise\Clients\Procurement\Model\ProductCategoryReference
      */
     public function getCategory()
     {
@@ -946,7 +946,7 @@ class CatalogItem implements ArrayAccess
 
     /**
      * Sets category
-     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ProductCategoryReference $category
+     * @param \Spinen\ConnectWise\Clients\Procurement\Model\ProductCategoryReference $category
      * @return $this
      */
     public function setCategory($category)
@@ -958,7 +958,7 @@ class CatalogItem implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Procurement\Model\Metadata
      */
     public function getInfo()
     {
@@ -967,7 +967,7 @@ class CatalogItem implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Procurement\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)

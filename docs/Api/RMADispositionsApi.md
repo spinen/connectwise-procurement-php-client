@@ -15,7 +15,7 @@ Method | HTTP request | Description
 
 
 # **procurementRMADispositionsCountGet**
-> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Count procurementRMADispositionsCountGet($conditions)
+> \Spinen\ConnectWise\Clients\Procurement\Model\Count procurementRMADispositionsCountGet($conditions)
 
 
 
@@ -50,7 +50,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -64,7 +64,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementRMADispositionsGet**
-> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\RMADisposition[] procurementRMADispositionsGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Procurement\Model\RMADisposition[] procurementRMADispositionsGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -109,7 +109,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\RMADisposition[]**](../Model/RMADisposition.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Model\RMADisposition[]**](../Model/RMADisposition.md)
 
 ### Authorization
 
@@ -171,7 +171,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementRMADispositionsIdGet**
-> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\RMADisposition procurementRMADispositionsIdGet($id)
+> \Spinen\ConnectWise\Clients\Procurement\Model\RMADisposition procurementRMADispositionsIdGet($id)
 
 
 
@@ -206,7 +206,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\RMADisposition**](../Model/RMADisposition.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Model\RMADisposition**](../Model/RMADisposition.md)
 
 ### Authorization
 
@@ -220,7 +220,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementRMADispositionsIdPatch**
-> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\RMADisposition procurementRMADispositionsIdPatch($id, $operations)
+> \Spinen\ConnectWise\Clients\Procurement\Model\RMADisposition procurementRMADispositionsIdPatch($id, $operations)
 
 
 
@@ -237,7 +237,7 @@ Spinen\ConnectWise\Clients\Procurement\Configuration::getDefaultConfiguration()-
 
 $api_instance = new Spinen\ConnectWise\Clients\Procurement\Api\RMADispositionsApi();
 $id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->procurementRMADispositionsIdPatch($id, $operations);
@@ -253,11 +253,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\RMADisposition**](../Model/RMADisposition.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Model\RMADisposition**](../Model/RMADisposition.md)
 
 ### Authorization
 
@@ -271,7 +271,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementRMADispositionsIdPut**
-> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\RMADisposition procurementRMADispositionsIdPut($id, $r_ma_disposition)
+> \Spinen\ConnectWise\Clients\Procurement\Model\RMADisposition procurementRMADispositionsIdPut($id, $r_ma_disposition)
 
 
 
@@ -288,7 +288,7 @@ Spinen\ConnectWise\Clients\Procurement\Configuration::getDefaultConfiguration()-
 
 $api_instance = new Spinen\ConnectWise\Clients\Procurement\Api\RMADispositionsApi();
 $id = 56; // int | 
-$r_ma_disposition = new \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\RMADisposition(); // \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\RMADisposition | 
+$r_ma_disposition = new \Spinen\ConnectWise\Clients\Procurement\Model\RMADisposition(); // \Spinen\ConnectWise\Clients\Procurement\Model\RMADisposition | 
 
 try {
     $result = $api_instance->procurementRMADispositionsIdPut($id, $r_ma_disposition);
@@ -304,11 +304,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **r_ma_disposition** | [**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\RMADisposition**](../Model/\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\RMADisposition.md)|  |
+ **r_ma_disposition** | [**\Spinen\ConnectWise\Clients\Procurement\Model\RMADisposition**](../Model/\Spinen\ConnectWise\Clients\Procurement\Model\RMADisposition.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\RMADisposition**](../Model/RMADisposition.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Model\RMADisposition**](../Model/RMADisposition.md)
 
 ### Authorization
 
@@ -322,7 +322,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementRMADispositionsPost**
-> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\RMADisposition procurementRMADispositionsPost($r_ma_disposition)
+> \Spinen\ConnectWise\Clients\Procurement\Model\RMADisposition procurementRMADispositionsPost($r_ma_disposition)
 
 
 
@@ -338,7 +338,7 @@ Spinen\ConnectWise\Clients\Procurement\Configuration::getDefaultConfiguration()-
 Spinen\ConnectWise\Clients\Procurement\Configuration::getDefaultConfiguration()->setPassword('YOUR_PASSWORD');
 
 $api_instance = new Spinen\ConnectWise\Clients\Procurement\Api\RMADispositionsApi();
-$r_ma_disposition = new \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\RMADisposition(); // \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\RMADisposition | 
+$r_ma_disposition = new \Spinen\ConnectWise\Clients\Procurement\Model\RMADisposition(); // \Spinen\ConnectWise\Clients\Procurement\Model\RMADisposition | 
 
 try {
     $result = $api_instance->procurementRMADispositionsPost($r_ma_disposition);
@@ -353,11 +353,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **r_ma_disposition** | [**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\RMADisposition**](../Model/\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\RMADisposition.md)|  |
+ **r_ma_disposition** | [**\Spinen\ConnectWise\Clients\Procurement\Model\RMADisposition**](../Model/\Spinen\ConnectWise\Clients\Procurement\Model\RMADisposition.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\RMADisposition**](../Model/RMADisposition.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Model\RMADisposition**](../Model/RMADisposition.md)
 
 ### Authorization
 

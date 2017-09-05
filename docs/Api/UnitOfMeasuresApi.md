@@ -15,7 +15,7 @@ Method | HTTP request | Description
 
 
 # **procurementUnitOfMeasuresCountGet**
-> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Count procurementUnitOfMeasuresCountGet($conditions)
+> \Spinen\ConnectWise\Clients\Procurement\Model\Count procurementUnitOfMeasuresCountGet($conditions)
 
 
 
@@ -50,7 +50,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -64,7 +64,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementUnitOfMeasuresGet**
-> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\UnitOfMeasure[] procurementUnitOfMeasuresGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Procurement\Model\UnitOfMeasure[] procurementUnitOfMeasuresGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -109,7 +109,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\UnitOfMeasure[]**](../Model/UnitOfMeasure.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Model\UnitOfMeasure[]**](../Model/UnitOfMeasure.md)
 
 ### Authorization
 
@@ -171,7 +171,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementUnitOfMeasuresIdGet**
-> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\UnitOfMeasure procurementUnitOfMeasuresIdGet($id)
+> \Spinen\ConnectWise\Clients\Procurement\Model\UnitOfMeasure procurementUnitOfMeasuresIdGet($id)
 
 
 
@@ -206,7 +206,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\UnitOfMeasure**](../Model/UnitOfMeasure.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Model\UnitOfMeasure**](../Model/UnitOfMeasure.md)
 
 ### Authorization
 
@@ -220,7 +220,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementUnitOfMeasuresIdPatch**
-> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\UnitOfMeasure procurementUnitOfMeasuresIdPatch($id, $operations)
+> \Spinen\ConnectWise\Clients\Procurement\Model\UnitOfMeasure procurementUnitOfMeasuresIdPatch($id, $operations)
 
 
 
@@ -237,7 +237,7 @@ Spinen\ConnectWise\Clients\Procurement\Configuration::getDefaultConfiguration()-
 
 $api_instance = new Spinen\ConnectWise\Clients\Procurement\Api\UnitOfMeasuresApi();
 $id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->procurementUnitOfMeasuresIdPatch($id, $operations);
@@ -253,11 +253,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\UnitOfMeasure**](../Model/UnitOfMeasure.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Model\UnitOfMeasure**](../Model/UnitOfMeasure.md)
 
 ### Authorization
 
@@ -271,7 +271,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementUnitOfMeasuresIdPut**
-> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\UnitOfMeasure procurementUnitOfMeasuresIdPut($id, $unit_of_measure)
+> \Spinen\ConnectWise\Clients\Procurement\Model\UnitOfMeasure procurementUnitOfMeasuresIdPut($id, $unit_of_measure)
 
 
 
@@ -288,7 +288,7 @@ Spinen\ConnectWise\Clients\Procurement\Configuration::getDefaultConfiguration()-
 
 $api_instance = new Spinen\ConnectWise\Clients\Procurement\Api\UnitOfMeasuresApi();
 $id = 56; // int | 
-$unit_of_measure = new \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\UnitOfMeasure(); // \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\UnitOfMeasure | 
+$unit_of_measure = new \Spinen\ConnectWise\Clients\Procurement\Model\UnitOfMeasure(); // \Spinen\ConnectWise\Clients\Procurement\Model\UnitOfMeasure | 
 
 try {
     $result = $api_instance->procurementUnitOfMeasuresIdPut($id, $unit_of_measure);
@@ -304,11 +304,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **unit_of_measure** | [**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\UnitOfMeasure**](../Model/\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\UnitOfMeasure.md)|  |
+ **unit_of_measure** | [**\Spinen\ConnectWise\Clients\Procurement\Model\UnitOfMeasure**](../Model/\Spinen\ConnectWise\Clients\Procurement\Model\UnitOfMeasure.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\UnitOfMeasure**](../Model/UnitOfMeasure.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Model\UnitOfMeasure**](../Model/UnitOfMeasure.md)
 
 ### Authorization
 
@@ -322,7 +322,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementUnitOfMeasuresPost**
-> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\UnitOfMeasure procurementUnitOfMeasuresPost($unit_of_measure)
+> \Spinen\ConnectWise\Clients\Procurement\Model\UnitOfMeasure procurementUnitOfMeasuresPost($unit_of_measure)
 
 
 
@@ -338,7 +338,7 @@ Spinen\ConnectWise\Clients\Procurement\Configuration::getDefaultConfiguration()-
 Spinen\ConnectWise\Clients\Procurement\Configuration::getDefaultConfiguration()->setPassword('YOUR_PASSWORD');
 
 $api_instance = new Spinen\ConnectWise\Clients\Procurement\Api\UnitOfMeasuresApi();
-$unit_of_measure = new \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\UnitOfMeasure(); // \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\UnitOfMeasure | 
+$unit_of_measure = new \Spinen\ConnectWise\Clients\Procurement\Model\UnitOfMeasure(); // \Spinen\ConnectWise\Clients\Procurement\Model\UnitOfMeasure | 
 
 try {
     $result = $api_instance->procurementUnitOfMeasuresPost($unit_of_measure);
@@ -353,11 +353,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **unit_of_measure** | [**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\UnitOfMeasure**](../Model/\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\UnitOfMeasure.md)|  |
+ **unit_of_measure** | [**\Spinen\ConnectWise\Clients\Procurement\Model\UnitOfMeasure**](../Model/\Spinen\ConnectWise\Clients\Procurement\Model\UnitOfMeasure.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\UnitOfMeasure**](../Model/UnitOfMeasure.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Model\UnitOfMeasure**](../Model/UnitOfMeasure.md)
 
 ### Authorization
 

@@ -65,7 +65,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementProductsIdComponentsComponentIdGet**
-> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ProductComponent[] procurementProductsIdComponentsComponentIdGet($id, $component_id)
+> \Spinen\ConnectWise\Clients\Procurement\Model\ProductComponent[] procurementProductsIdComponentsComponentIdGet($id, $component_id)
 
 
 
@@ -102,7 +102,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ProductComponent[]**](../Model/ProductComponent.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Model\ProductComponent[]**](../Model/ProductComponent.md)
 
 ### Authorization
 
@@ -116,7 +116,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementProductsIdComponentsComponentIdPatch**
-> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ProductComponent[] procurementProductsIdComponentsComponentIdPatch($id, $component_id, $operations)
+> \Spinen\ConnectWise\Clients\Procurement\Model\ProductComponent[] procurementProductsIdComponentsComponentIdPatch($id, $component_id, $operations)
 
 
 
@@ -134,7 +134,7 @@ Spinen\ConnectWise\Clients\Procurement\Configuration::getDefaultConfiguration()-
 $api_instance = new Spinen\ConnectWise\Clients\Procurement\Api\ProductComponentsApi();
 $id = 56; // int | 
 $component_id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->procurementProductsIdComponentsComponentIdPatch($id, $component_id, $operations);
@@ -151,11 +151,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **component_id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ProductComponent[]**](../Model/ProductComponent.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Model\ProductComponent[]**](../Model/ProductComponent.md)
 
 ### Authorization
 
@@ -169,7 +169,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementProductsIdComponentsComponentIdPut**
-> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ProductComponent[] procurementProductsIdComponentsComponentIdPut($id, $component_id, $product_component)
+> \Spinen\ConnectWise\Clients\Procurement\Model\ProductComponent[] procurementProductsIdComponentsComponentIdPut($id, $component_id, $product_component)
 
 
 
@@ -187,7 +187,7 @@ Spinen\ConnectWise\Clients\Procurement\Configuration::getDefaultConfiguration()-
 $api_instance = new Spinen\ConnectWise\Clients\Procurement\Api\ProductComponentsApi();
 $id = 56; // int | 
 $component_id = 56; // int | 
-$product_component = new \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ProductComponent(); // \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ProductComponent | 
+$product_component = new \Spinen\ConnectWise\Clients\Procurement\Model\ProductComponent(); // \Spinen\ConnectWise\Clients\Procurement\Model\ProductComponent | 
 
 try {
     $result = $api_instance->procurementProductsIdComponentsComponentIdPut($id, $component_id, $product_component);
@@ -204,11 +204,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **component_id** | **int**|  |
- **product_component** | [**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ProductComponent**](../Model/\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ProductComponent.md)|  |
+ **product_component** | [**\Spinen\ConnectWise\Clients\Procurement\Model\ProductComponent**](../Model/\Spinen\ConnectWise\Clients\Procurement\Model\ProductComponent.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ProductComponent[]**](../Model/ProductComponent.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Model\ProductComponent[]**](../Model/ProductComponent.md)
 
 ### Authorization
 
@@ -222,7 +222,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementProductsIdComponentsCountGet**
-> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Count procurementProductsIdComponentsCountGet($id, $conditions)
+> \Spinen\ConnectWise\Clients\Procurement\Model\Count procurementProductsIdComponentsCountGet($id, $conditions)
 
 
 
@@ -259,7 +259,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -273,7 +273,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementProductsIdComponentsGet**
-> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ProductComponent[] procurementProductsIdComponentsGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Procurement\Model\ProductComponent[] procurementProductsIdComponentsGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -320,7 +320,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ProductComponent[]**](../Model/ProductComponent.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Model\ProductComponent[]**](../Model/ProductComponent.md)
 
 ### Authorization
 
@@ -334,7 +334,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementProductsIdComponentsPost**
-> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ProductComponent[] procurementProductsIdComponentsPost($id, $product_component)
+> \Spinen\ConnectWise\Clients\Procurement\Model\ProductComponent[] procurementProductsIdComponentsPost($id, $product_component)
 
 
 
@@ -351,7 +351,7 @@ Spinen\ConnectWise\Clients\Procurement\Configuration::getDefaultConfiguration()-
 
 $api_instance = new Spinen\ConnectWise\Clients\Procurement\Api\ProductComponentsApi();
 $id = 56; // int | 
-$product_component = new \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ProductComponent(); // \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ProductComponent | 
+$product_component = new \Spinen\ConnectWise\Clients\Procurement\Model\ProductComponent(); // \Spinen\ConnectWise\Clients\Procurement\Model\ProductComponent | 
 
 try {
     $result = $api_instance->procurementProductsIdComponentsPost($id, $product_component);
@@ -367,11 +367,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **product_component** | [**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ProductComponent**](../Model/\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ProductComponent.md)|  |
+ **product_component** | [**\Spinen\ConnectWise\Clients\Procurement\Model\ProductComponent**](../Model/\Spinen\ConnectWise\Clients\Procurement\Model\ProductComponent.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ProductComponent[]**](../Model/ProductComponent.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Model\ProductComponent[]**](../Model/ProductComponent.md)
 
 ### Authorization
 

@@ -15,7 +15,7 @@ Method | HTTP request | Description
 
 
 # **procurementRmaActionsCountGet**
-> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Count procurementRmaActionsCountGet($conditions)
+> \Spinen\ConnectWise\Clients\Procurement\Model\Count procurementRmaActionsCountGet($conditions)
 
 
 
@@ -50,7 +50,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -64,7 +64,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementRmaActionsGet**
-> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\RMAAction[] procurementRmaActionsGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Procurement\Model\RMAAction[] procurementRmaActionsGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -109,7 +109,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\RMAAction[]**](../Model/RMAAction.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Model\RMAAction[]**](../Model/RMAAction.md)
 
 ### Authorization
 
@@ -171,7 +171,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementRmaActionsIdGet**
-> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\RMAAction procurementRmaActionsIdGet($id)
+> \Spinen\ConnectWise\Clients\Procurement\Model\RMAAction procurementRmaActionsIdGet($id)
 
 
 
@@ -206,7 +206,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\RMAAction**](../Model/RMAAction.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Model\RMAAction**](../Model/RMAAction.md)
 
 ### Authorization
 
@@ -220,7 +220,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementRmaActionsIdPatch**
-> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\RMAAction procurementRmaActionsIdPatch($id, $operations)
+> \Spinen\ConnectWise\Clients\Procurement\Model\RMAAction procurementRmaActionsIdPatch($id, $operations)
 
 
 
@@ -237,7 +237,7 @@ Spinen\ConnectWise\Clients\Procurement\Configuration::getDefaultConfiguration()-
 
 $api_instance = new Spinen\ConnectWise\Clients\Procurement\Api\RMAActionsApi();
 $id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->procurementRmaActionsIdPatch($id, $operations);
@@ -253,11 +253,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\RMAAction**](../Model/RMAAction.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Model\RMAAction**](../Model/RMAAction.md)
 
 ### Authorization
 
@@ -271,7 +271,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementRmaActionsIdPut**
-> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\RMAAction procurementRmaActionsIdPut($id, $rma_action)
+> \Spinen\ConnectWise\Clients\Procurement\Model\RMAAction procurementRmaActionsIdPut($id, $rma_action)
 
 
 
@@ -288,7 +288,7 @@ Spinen\ConnectWise\Clients\Procurement\Configuration::getDefaultConfiguration()-
 
 $api_instance = new Spinen\ConnectWise\Clients\Procurement\Api\RMAActionsApi();
 $id = 56; // int | 
-$rma_action = new \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\RMAAction(); // \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\RMAAction | 
+$rma_action = new \Spinen\ConnectWise\Clients\Procurement\Model\RMAAction(); // \Spinen\ConnectWise\Clients\Procurement\Model\RMAAction | 
 
 try {
     $result = $api_instance->procurementRmaActionsIdPut($id, $rma_action);
@@ -304,11 +304,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **rma_action** | [**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\RMAAction**](../Model/\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\RMAAction.md)|  |
+ **rma_action** | [**\Spinen\ConnectWise\Clients\Procurement\Model\RMAAction**](../Model/\Spinen\ConnectWise\Clients\Procurement\Model\RMAAction.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\RMAAction**](../Model/RMAAction.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Model\RMAAction**](../Model/RMAAction.md)
 
 ### Authorization
 
@@ -322,7 +322,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementRmaActionsPost**
-> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\RMAAction procurementRmaActionsPost($rma_action)
+> \Spinen\ConnectWise\Clients\Procurement\Model\RMAAction procurementRmaActionsPost($rma_action)
 
 
 
@@ -338,7 +338,7 @@ Spinen\ConnectWise\Clients\Procurement\Configuration::getDefaultConfiguration()-
 Spinen\ConnectWise\Clients\Procurement\Configuration::getDefaultConfiguration()->setPassword('YOUR_PASSWORD');
 
 $api_instance = new Spinen\ConnectWise\Clients\Procurement\Api\RMAActionsApi();
-$rma_action = new \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\RMAAction(); // \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\RMAAction | 
+$rma_action = new \Spinen\ConnectWise\Clients\Procurement\Model\RMAAction(); // \Spinen\ConnectWise\Clients\Procurement\Model\RMAAction | 
 
 try {
     $result = $api_instance->procurementRmaActionsPost($rma_action);
@@ -353,11 +353,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **rma_action** | [**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\RMAAction**](../Model/\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\RMAAction.md)|  |
+ **rma_action** | [**\Spinen\ConnectWise\Clients\Procurement\Model\RMAAction**](../Model/\Spinen\ConnectWise\Clients\Procurement\Model\RMAAction.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\RMAAction**](../Model/RMAAction.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Model\RMAAction**](../Model/RMAAction.md)
 
 ### Authorization
 

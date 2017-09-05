@@ -15,7 +15,7 @@ Method | HTTP request | Description
 
 
 # **procurementAdjustmentsTypesCountGet**
-> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Count procurementAdjustmentsTypesCountGet($conditions)
+> \Spinen\ConnectWise\Clients\Procurement\Model\Count procurementAdjustmentsTypesCountGet($conditions)
 
 
 
@@ -50,7 +50,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -64,7 +64,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementAdjustmentsTypesGet**
-> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\AdjustmentType[] procurementAdjustmentsTypesGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Procurement\Model\AdjustmentType[] procurementAdjustmentsTypesGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -109,7 +109,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\AdjustmentType[]**](../Model/AdjustmentType.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Model\AdjustmentType[]**](../Model/AdjustmentType.md)
 
 ### Authorization
 
@@ -171,7 +171,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementAdjustmentsTypesIdGet**
-> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\AdjustmentType procurementAdjustmentsTypesIdGet($id)
+> \Spinen\ConnectWise\Clients\Procurement\Model\AdjustmentType procurementAdjustmentsTypesIdGet($id)
 
 
 
@@ -206,7 +206,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\AdjustmentType**](../Model/AdjustmentType.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Model\AdjustmentType**](../Model/AdjustmentType.md)
 
 ### Authorization
 
@@ -220,7 +220,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementAdjustmentsTypesIdPatch**
-> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\AdjustmentType procurementAdjustmentsTypesIdPatch($id, $operations)
+> \Spinen\ConnectWise\Clients\Procurement\Model\AdjustmentType procurementAdjustmentsTypesIdPatch($id, $operations)
 
 
 
@@ -237,7 +237,7 @@ Spinen\ConnectWise\Clients\Procurement\Configuration::getDefaultConfiguration()-
 
 $api_instance = new Spinen\ConnectWise\Clients\Procurement\Api\AdjustmentTypesApi();
 $id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->procurementAdjustmentsTypesIdPatch($id, $operations);
@@ -253,11 +253,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\AdjustmentType**](../Model/AdjustmentType.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Model\AdjustmentType**](../Model/AdjustmentType.md)
 
 ### Authorization
 
@@ -271,7 +271,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementAdjustmentsTypesIdPut**
-> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\AdjustmentType procurementAdjustmentsTypesIdPut($id, $adjustment_types)
+> \Spinen\ConnectWise\Clients\Procurement\Model\AdjustmentType procurementAdjustmentsTypesIdPut($id, $adjustment_types)
 
 
 
@@ -288,7 +288,7 @@ Spinen\ConnectWise\Clients\Procurement\Configuration::getDefaultConfiguration()-
 
 $api_instance = new Spinen\ConnectWise\Clients\Procurement\Api\AdjustmentTypesApi();
 $id = 56; // int | 
-$adjustment_types = new \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\AdjustmentType(); // \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\AdjustmentType | 
+$adjustment_types = new \Spinen\ConnectWise\Clients\Procurement\Model\AdjustmentType(); // \Spinen\ConnectWise\Clients\Procurement\Model\AdjustmentType | 
 
 try {
     $result = $api_instance->procurementAdjustmentsTypesIdPut($id, $adjustment_types);
@@ -304,11 +304,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **adjustment_types** | [**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\AdjustmentType**](../Model/\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\AdjustmentType.md)|  |
+ **adjustment_types** | [**\Spinen\ConnectWise\Clients\Procurement\Model\AdjustmentType**](../Model/\Spinen\ConnectWise\Clients\Procurement\Model\AdjustmentType.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\AdjustmentType**](../Model/AdjustmentType.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Model\AdjustmentType**](../Model/AdjustmentType.md)
 
 ### Authorization
 
@@ -322,7 +322,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementAdjustmentsTypesPost**
-> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\AdjustmentType procurementAdjustmentsTypesPost($adjustment_types)
+> \Spinen\ConnectWise\Clients\Procurement\Model\AdjustmentType procurementAdjustmentsTypesPost($adjustment_types)
 
 
 
@@ -338,7 +338,7 @@ Spinen\ConnectWise\Clients\Procurement\Configuration::getDefaultConfiguration()-
 Spinen\ConnectWise\Clients\Procurement\Configuration::getDefaultConfiguration()->setPassword('YOUR_PASSWORD');
 
 $api_instance = new Spinen\ConnectWise\Clients\Procurement\Api\AdjustmentTypesApi();
-$adjustment_types = new \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\AdjustmentType(); // \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\AdjustmentType | 
+$adjustment_types = new \Spinen\ConnectWise\Clients\Procurement\Model\AdjustmentType(); // \Spinen\ConnectWise\Clients\Procurement\Model\AdjustmentType | 
 
 try {
     $result = $api_instance->procurementAdjustmentsTypesPost($adjustment_types);
@@ -353,11 +353,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **adjustment_types** | [**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\AdjustmentType**](../Model/\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\AdjustmentType.md)|  |
+ **adjustment_types** | [**\Spinen\ConnectWise\Clients\Procurement\Model\AdjustmentType**](../Model/\Spinen\ConnectWise\Clients\Procurement\Model\AdjustmentType.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\AdjustmentType**](../Model/AdjustmentType.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Model\AdjustmentType**](../Model/AdjustmentType.md)
 
 ### Authorization
 

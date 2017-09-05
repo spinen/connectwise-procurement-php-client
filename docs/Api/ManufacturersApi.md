@@ -15,7 +15,7 @@ Method | HTTP request | Description
 
 
 # **procurementManufacturersCountGet**
-> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Count procurementManufacturersCountGet($conditions)
+> \Spinen\ConnectWise\Clients\Procurement\Model\Count procurementManufacturersCountGet($conditions)
 
 
 
@@ -50,7 +50,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -64,7 +64,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementManufacturersGet**
-> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Manufacturer[] procurementManufacturersGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Procurement\Model\Manufacturer[] procurementManufacturersGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -109,7 +109,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Manufacturer[]**](../Model/Manufacturer.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Model\Manufacturer[]**](../Model/Manufacturer.md)
 
 ### Authorization
 
@@ -171,7 +171,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementManufacturersIdGet**
-> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Manufacturer procurementManufacturersIdGet($id)
+> \Spinen\ConnectWise\Clients\Procurement\Model\Manufacturer procurementManufacturersIdGet($id)
 
 
 
@@ -206,7 +206,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Manufacturer**](../Model/Manufacturer.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Model\Manufacturer**](../Model/Manufacturer.md)
 
 ### Authorization
 
@@ -220,7 +220,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementManufacturersIdPatch**
-> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Manufacturer procurementManufacturersIdPatch($id, $operations)
+> \Spinen\ConnectWise\Clients\Procurement\Model\Manufacturer procurementManufacturersIdPatch($id, $operations)
 
 
 
@@ -237,7 +237,7 @@ Spinen\ConnectWise\Clients\Procurement\Configuration::getDefaultConfiguration()-
 
 $api_instance = new Spinen\ConnectWise\Clients\Procurement\Api\ManufacturersApi();
 $id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->procurementManufacturersIdPatch($id, $operations);
@@ -253,11 +253,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Manufacturer**](../Model/Manufacturer.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Model\Manufacturer**](../Model/Manufacturer.md)
 
 ### Authorization
 
@@ -271,7 +271,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementManufacturersIdPut**
-> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Manufacturer procurementManufacturersIdPut($id, $manufacturer)
+> \Spinen\ConnectWise\Clients\Procurement\Model\Manufacturer procurementManufacturersIdPut($id, $manufacturer)
 
 
 
@@ -288,7 +288,7 @@ Spinen\ConnectWise\Clients\Procurement\Configuration::getDefaultConfiguration()-
 
 $api_instance = new Spinen\ConnectWise\Clients\Procurement\Api\ManufacturersApi();
 $id = 56; // int | 
-$manufacturer = new \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Manufacturer(); // \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Manufacturer | 
+$manufacturer = new \Spinen\ConnectWise\Clients\Procurement\Model\Manufacturer(); // \Spinen\ConnectWise\Clients\Procurement\Model\Manufacturer | 
 
 try {
     $result = $api_instance->procurementManufacturersIdPut($id, $manufacturer);
@@ -304,11 +304,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **manufacturer** | [**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Manufacturer**](../Model/\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Manufacturer.md)|  |
+ **manufacturer** | [**\Spinen\ConnectWise\Clients\Procurement\Model\Manufacturer**](../Model/\Spinen\ConnectWise\Clients\Procurement\Model\Manufacturer.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Manufacturer**](../Model/Manufacturer.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Model\Manufacturer**](../Model/Manufacturer.md)
 
 ### Authorization
 
@@ -322,7 +322,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementManufacturersPost**
-> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Manufacturer procurementManufacturersPost($manufacturer)
+> \Spinen\ConnectWise\Clients\Procurement\Model\Manufacturer procurementManufacturersPost($manufacturer)
 
 
 
@@ -338,7 +338,7 @@ Spinen\ConnectWise\Clients\Procurement\Configuration::getDefaultConfiguration()-
 Spinen\ConnectWise\Clients\Procurement\Configuration::getDefaultConfiguration()->setPassword('YOUR_PASSWORD');
 
 $api_instance = new Spinen\ConnectWise\Clients\Procurement\Api\ManufacturersApi();
-$manufacturer = new \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Manufacturer(); // \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Manufacturer | 
+$manufacturer = new \Spinen\ConnectWise\Clients\Procurement\Model\Manufacturer(); // \Spinen\ConnectWise\Clients\Procurement\Model\Manufacturer | 
 
 try {
     $result = $api_instance->procurementManufacturersPost($manufacturer);
@@ -353,11 +353,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **manufacturer** | [**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Manufacturer**](../Model/\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Manufacturer.md)|  |
+ **manufacturer** | [**\Spinen\ConnectWise\Clients\Procurement\Model\Manufacturer**](../Model/\Spinen\ConnectWise\Clients\Procurement\Model\Manufacturer.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Manufacturer**](../Model/Manufacturer.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Model\Manufacturer**](../Model/Manufacturer.md)
 
 ### Authorization
 

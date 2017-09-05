@@ -15,7 +15,7 @@ Method | HTTP request | Description
 
 
 # **procurementPurchaseordersIdLineitemsCountGet**
-> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Count procurementPurchaseordersIdLineitemsCountGet($id, $conditions)
+> \Spinen\ConnectWise\Clients\Procurement\Model\Count procurementPurchaseordersIdLineitemsCountGet($id, $conditions)
 
 
 
@@ -52,7 +52,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -66,7 +66,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementPurchaseordersIdLineitemsGet**
-> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrderLineItem[] procurementPurchaseordersIdLineitemsGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrderLineItem[] procurementPurchaseordersIdLineitemsGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -113,7 +113,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrderLineItem[]**](../Model/PurchaseOrderLineItem.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrderLineItem[]**](../Model/PurchaseOrderLineItem.md)
 
 ### Authorization
 
@@ -177,7 +177,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementPurchaseordersIdLineitemsLineItemIdGet**
-> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrderLineItem procurementPurchaseordersIdLineitemsLineItemIdGet($id, $line_item_id)
+> \Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrderLineItem procurementPurchaseordersIdLineitemsLineItemIdGet($id, $line_item_id)
 
 
 
@@ -214,7 +214,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrderLineItem**](../Model/PurchaseOrderLineItem.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrderLineItem**](../Model/PurchaseOrderLineItem.md)
 
 ### Authorization
 
@@ -228,7 +228,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementPurchaseordersIdLineitemsLineItemIdPatch**
-> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrderLineItem procurementPurchaseordersIdLineitemsLineItemIdPatch($id, $line_item_id, $operations)
+> \Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrderLineItem procurementPurchaseordersIdLineitemsLineItemIdPatch($id, $line_item_id, $operations)
 
 
 
@@ -246,7 +246,7 @@ Spinen\ConnectWise\Clients\Procurement\Configuration::getDefaultConfiguration()-
 $api_instance = new Spinen\ConnectWise\Clients\Procurement\Api\PurchaseOrderLineItemsApi();
 $id = 56; // int | 
 $line_item_id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->procurementPurchaseordersIdLineitemsLineItemIdPatch($id, $line_item_id, $operations);
@@ -263,11 +263,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **line_item_id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrderLineItem**](../Model/PurchaseOrderLineItem.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrderLineItem**](../Model/PurchaseOrderLineItem.md)
 
 ### Authorization
 
@@ -281,7 +281,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementPurchaseordersIdLineitemsLineItemIdPut**
-> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrderLineItem procurementPurchaseordersIdLineitemsLineItemIdPut($id, $line_item_id, $purchase_order_line_item)
+> \Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrderLineItem procurementPurchaseordersIdLineitemsLineItemIdPut($id, $line_item_id, $purchase_order_line_item)
 
 
 
@@ -299,7 +299,7 @@ Spinen\ConnectWise\Clients\Procurement\Configuration::getDefaultConfiguration()-
 $api_instance = new Spinen\ConnectWise\Clients\Procurement\Api\PurchaseOrderLineItemsApi();
 $id = 56; // int | 
 $line_item_id = 56; // int | 
-$purchase_order_line_item = new \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrderLineItem(); // \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrderLineItem | 
+$purchase_order_line_item = new \Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrderLineItem(); // \Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrderLineItem | 
 
 try {
     $result = $api_instance->procurementPurchaseordersIdLineitemsLineItemIdPut($id, $line_item_id, $purchase_order_line_item);
@@ -316,11 +316,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **line_item_id** | **int**|  |
- **purchase_order_line_item** | [**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrderLineItem**](../Model/\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrderLineItem.md)|  |
+ **purchase_order_line_item** | [**\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrderLineItem**](../Model/\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrderLineItem.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrderLineItem**](../Model/PurchaseOrderLineItem.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrderLineItem**](../Model/PurchaseOrderLineItem.md)
 
 ### Authorization
 
@@ -334,7 +334,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementPurchaseordersIdLineitemsPost**
-> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrderLineItem procurementPurchaseordersIdLineitemsPost($id, $purchase_order_line_item)
+> \Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrderLineItem procurementPurchaseordersIdLineitemsPost($id, $purchase_order_line_item)
 
 
 
@@ -351,7 +351,7 @@ Spinen\ConnectWise\Clients\Procurement\Configuration::getDefaultConfiguration()-
 
 $api_instance = new Spinen\ConnectWise\Clients\Procurement\Api\PurchaseOrderLineItemsApi();
 $id = 56; // int | 
-$purchase_order_line_item = new \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrderLineItem(); // \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrderLineItem | 
+$purchase_order_line_item = new \Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrderLineItem(); // \Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrderLineItem | 
 
 try {
     $result = $api_instance->procurementPurchaseordersIdLineitemsPost($id, $purchase_order_line_item);
@@ -367,11 +367,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **purchase_order_line_item** | [**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrderLineItem**](../Model/\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrderLineItem.md)|  |
+ **purchase_order_line_item** | [**\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrderLineItem**](../Model/\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrderLineItem.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrderLineItem**](../Model/PurchaseOrderLineItem.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Model\PurchaseOrderLineItem**](../Model/PurchaseOrderLineItem.md)
 
 ### Authorization
 

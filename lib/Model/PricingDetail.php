@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model;
+namespace Spinen\ConnectWise\Clients\Procurement\Model;
 
 use \ArrayAccess;
 
@@ -56,12 +56,12 @@ class PricingDetail implements ArrayAccess
       */
     protected static $swaggerTypes = [
         'id' => 'int',
-        'product' => '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CatalogItemReference',
-        'category' => '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ProductCategoryReference',
-        'sub_category' => '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ProductSubCategoryReference',
+        'product' => '\Spinen\ConnectWise\Clients\Procurement\Model\CatalogItemReference',
+        'category' => '\Spinen\ConnectWise\Clients\Procurement\Model\ProductCategoryReference',
+        'sub_category' => '\Spinen\ConnectWise\Clients\Procurement\Model\ProductSubCategoryReference',
         'start_date' => '\DateTime',
         'end_date' => '\DateTime',
-        '_info' => '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Metadata'
+        '_info' => '\Spinen\ConnectWise\Clients\Procurement\Model\Metadata'
     ];
 
     public static function swaggerTypes()
@@ -205,7 +205,7 @@ class PricingDetail implements ArrayAccess
 
     /**
      * Gets product
-     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CatalogItemReference
+     * @return \Spinen\ConnectWise\Clients\Procurement\Model\CatalogItemReference
      */
     public function getProduct()
     {
@@ -214,7 +214,7 @@ class PricingDetail implements ArrayAccess
 
     /**
      * Sets product
-     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CatalogItemReference $product
+     * @param \Spinen\ConnectWise\Clients\Procurement\Model\CatalogItemReference $product
      * @return $this
      */
     public function setProduct($product)
@@ -226,7 +226,7 @@ class PricingDetail implements ArrayAccess
 
     /**
      * Gets category
-     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ProductCategoryReference
+     * @return \Spinen\ConnectWise\Clients\Procurement\Model\ProductCategoryReference
      */
     public function getCategory()
     {
@@ -235,7 +235,7 @@ class PricingDetail implements ArrayAccess
 
     /**
      * Sets category
-     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ProductCategoryReference $category
+     * @param \Spinen\ConnectWise\Clients\Procurement\Model\ProductCategoryReference $category
      * @return $this
      */
     public function setCategory($category)
@@ -247,7 +247,7 @@ class PricingDetail implements ArrayAccess
 
     /**
      * Gets sub_category
-     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ProductSubCategoryReference
+     * @return \Spinen\ConnectWise\Clients\Procurement\Model\ProductSubCategoryReference
      */
     public function getSubCategory()
     {
@@ -256,7 +256,7 @@ class PricingDetail implements ArrayAccess
 
     /**
      * Sets sub_category
-     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ProductSubCategoryReference $sub_category
+     * @param \Spinen\ConnectWise\Clients\Procurement\Model\ProductSubCategoryReference $sub_category
      * @return $this
      */
     public function setSubCategory($sub_category)
@@ -310,7 +310,7 @@ class PricingDetail implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Procurement\Model\Metadata
      */
     public function getInfo()
     {
@@ -319,7 +319,7 @@ class PricingDetail implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Procurement\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)

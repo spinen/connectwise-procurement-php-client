@@ -17,21 +17,21 @@ Name | Type | Description | Notes
 **internal_notes** | **string** |  | [optional] 
 **line_number** | **int** |  | 
 **packing_slip** | **string** |  | [optional] 
-**product** | [**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\IvItemReference**](IvItemReference.md) |  | 
+**product** | [**\Spinen\ConnectWise\Clients\Procurement\Model\IvItemReference**](IvItemReference.md) |  | 
 **purchase_order_id** | **int** |  | [optional] 
 **quantity** | **double** |  | 
 **received_quantity** | **int** |  | [optional] 
 **serial_numbers** | **string** |  | [optional] 
 **ship_date** | [**\DateTime**](\DateTime.md) |  | [optional] 
-**shipment_method** | [**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethodReference**](ShipmentMethodReference.md) |  | [optional] 
+**shipment_method** | [**\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethodReference**](ShipmentMethodReference.md) |  | [optional] 
 **tax** | **double** |  | [optional] 
 **tracking_number** | **string** |  | [optional] 
 **unit_cost** | **double** |  | [optional] 
-**unit_of_measure** | [**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\UnitOfMeasureReference**](UnitOfMeasureReference.md) |  | 
+**unit_of_measure** | [**\Spinen\ConnectWise\Clients\Procurement\Model\UnitOfMeasureReference**](UnitOfMeasureReference.md) |  | 
 **vendor_order_number** | **string** |  | [optional] 
-**warehouse** | [**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\WarehouseReference**](WarehouseReference.md) |  | [optional] 
-**warehouse_bin** | [**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\WarehouseBinReference**](WarehouseBinReference.md) |  | [optional] 
-**_info** | [**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Metadata**](Metadata.md) | Metadata of the entity | [optional] 
+**warehouse** | [**\Spinen\ConnectWise\Clients\Procurement\Model\WarehouseReference**](WarehouseReference.md) |  | [optional] 
+**warehouse_bin** | [**\Spinen\ConnectWise\Clients\Procurement\Model\WarehouseBinReference**](WarehouseBinReference.md) |  | [optional] 
+**_info** | [**\Spinen\ConnectWise\Clients\Procurement\Model\Metadata**](Metadata.md) | Metadata of the entity | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

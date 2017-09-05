@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model;
+namespace Spinen\ConnectWise\Clients\Procurement\Model;
 
 use \ArrayAccess;
 
@@ -58,16 +58,16 @@ class ProductPickingShippingDetail implements ArrayAccess
         'id' => 'int',
         'picked_quantity' => 'int',
         'shipped_quantity' => 'int',
-        'warehouse' => '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\WarehouseReference',
-        'warehouse_bin' => '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\WarehouseBinReference',
-        'shipment_method' => '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethodReference',
+        'warehouse' => '\Spinen\ConnectWise\Clients\Procurement\Model\WarehouseReference',
+        'warehouse_bin' => '\Spinen\ConnectWise\Clients\Procurement\Model\WarehouseBinReference',
+        'shipment_method' => '\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethodReference',
         'serial_number' => 'string',
         'serial_number_ids' => 'int[]',
         'tracking_number' => 'string',
-        'product_item' => '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ProductItemReference',
+        'product_item' => '\Spinen\ConnectWise\Clients\Procurement\Model\ProductItemReference',
         'line_number' => 'int',
         'quantity' => 'int',
-        '_info' => '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Metadata'
+        '_info' => '\Spinen\ConnectWise\Clients\Procurement\Model\Metadata'
     ];
 
     public static function swaggerTypes()
@@ -295,7 +295,7 @@ class ProductPickingShippingDetail implements ArrayAccess
 
     /**
      * Gets warehouse
-     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\WarehouseReference
+     * @return \Spinen\ConnectWise\Clients\Procurement\Model\WarehouseReference
      */
     public function getWarehouse()
     {
@@ -304,7 +304,7 @@ class ProductPickingShippingDetail implements ArrayAccess
 
     /**
      * Sets warehouse
-     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\WarehouseReference $warehouse
+     * @param \Spinen\ConnectWise\Clients\Procurement\Model\WarehouseReference $warehouse
      * @return $this
      */
     public function setWarehouse($warehouse)
@@ -316,7 +316,7 @@ class ProductPickingShippingDetail implements ArrayAccess
 
     /**
      * Gets warehouse_bin
-     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\WarehouseBinReference
+     * @return \Spinen\ConnectWise\Clients\Procurement\Model\WarehouseBinReference
      */
     public function getWarehouseBin()
     {
@@ -325,7 +325,7 @@ class ProductPickingShippingDetail implements ArrayAccess
 
     /**
      * Sets warehouse_bin
-     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\WarehouseBinReference $warehouse_bin
+     * @param \Spinen\ConnectWise\Clients\Procurement\Model\WarehouseBinReference $warehouse_bin
      * @return $this
      */
     public function setWarehouseBin($warehouse_bin)
@@ -337,7 +337,7 @@ class ProductPickingShippingDetail implements ArrayAccess
 
     /**
      * Gets shipment_method
-     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethodReference
+     * @return \Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethodReference
      */
     public function getShipmentMethod()
     {
@@ -346,7 +346,7 @@ class ProductPickingShippingDetail implements ArrayAccess
 
     /**
      * Sets shipment_method
-     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethodReference $shipment_method
+     * @param \Spinen\ConnectWise\Clients\Procurement\Model\ShipmentMethodReference $shipment_method
      * @return $this
      */
     public function setShipmentMethod($shipment_method)
@@ -421,7 +421,7 @@ class ProductPickingShippingDetail implements ArrayAccess
 
     /**
      * Gets product_item
-     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ProductItemReference
+     * @return \Spinen\ConnectWise\Clients\Procurement\Model\ProductItemReference
      */
     public function getProductItem()
     {
@@ -430,7 +430,7 @@ class ProductPickingShippingDetail implements ArrayAccess
 
     /**
      * Sets product_item
-     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\ProductItemReference $product_item
+     * @param \Spinen\ConnectWise\Clients\Procurement\Model\ProductItemReference $product_item
      * @return $this
      */
     public function setProductItem($product_item)
@@ -484,7 +484,7 @@ class ProductPickingShippingDetail implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Procurement\Model\Metadata
      */
     public function getInfo()
     {
@@ -493,7 +493,7 @@ class ProductPickingShippingDetail implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Procurement\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)

@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model;
+namespace Spinen\ConnectWise\Clients\Procurement\Model;
 
 use \ArrayAccess;
 
@@ -58,15 +58,15 @@ class CatalogComponent implements ArrayAccess
         'id' => 'int',
         'sequence_number' => 'int',
         'quantity' => 'double',
-        'catalog_item' => '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CatalogItemReference',
+        'catalog_item' => '\Spinen\ConnectWise\Clients\Procurement\Model\CatalogItemReference',
         'hide_price_flag' => 'bool',
         'hide_item_identifier_flag' => 'bool',
         'hide_description_flag' => 'bool',
         'hide_quantity_flag' => 'bool',
-        'parent_catalog_item' => '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CatalogItemReference',
+        'parent_catalog_item' => '\Spinen\ConnectWise\Clients\Procurement\Model\CatalogItemReference',
         'price' => 'double',
         'cost' => 'double',
-        '_info' => '\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Metadata'
+        '_info' => '\Spinen\ConnectWise\Clients\Procurement\Model\Metadata'
     ];
 
     public static function swaggerTypes()
@@ -278,7 +278,7 @@ class CatalogComponent implements ArrayAccess
 
     /**
      * Gets catalog_item
-     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CatalogItemReference
+     * @return \Spinen\ConnectWise\Clients\Procurement\Model\CatalogItemReference
      */
     public function getCatalogItem()
     {
@@ -287,7 +287,7 @@ class CatalogComponent implements ArrayAccess
 
     /**
      * Sets catalog_item
-     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CatalogItemReference $catalog_item
+     * @param \Spinen\ConnectWise\Clients\Procurement\Model\CatalogItemReference $catalog_item
      * @return $this
      */
     public function setCatalogItem($catalog_item)
@@ -383,7 +383,7 @@ class CatalogComponent implements ArrayAccess
 
     /**
      * Gets parent_catalog_item
-     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CatalogItemReference
+     * @return \Spinen\ConnectWise\Clients\Procurement\Model\CatalogItemReference
      */
     public function getParentCatalogItem()
     {
@@ -392,7 +392,7 @@ class CatalogComponent implements ArrayAccess
 
     /**
      * Sets parent_catalog_item
-     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\CatalogItemReference $parent_catalog_item
+     * @param \Spinen\ConnectWise\Clients\Procurement\Model\CatalogItemReference $parent_catalog_item
      * @return $this
      */
     public function setParentCatalogItem($parent_catalog_item)
@@ -446,7 +446,7 @@ class CatalogComponent implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Procurement\Model\Metadata
      */
     public function getInfo()
     {
@@ -455,7 +455,7 @@ class CatalogComponent implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Procurement\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)

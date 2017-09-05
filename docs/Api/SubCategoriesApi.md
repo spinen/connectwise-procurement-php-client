@@ -15,7 +15,7 @@ Method | HTTP request | Description
 
 
 # **procurementCategoriesIdSubcategoriesCountGet**
-> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Count procurementCategoriesIdSubcategoriesCountGet($id, $conditions)
+> \Spinen\ConnectWise\Clients\Procurement\Model\Count procurementCategoriesIdSubcategoriesCountGet($id, $conditions)
 
 
 
@@ -52,7 +52,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -66,7 +66,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementCategoriesIdSubcategoriesGet**
-> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\SubCategory[] procurementCategoriesIdSubcategoriesGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Procurement\Model\SubCategory[] procurementCategoriesIdSubcategoriesGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -113,7 +113,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\SubCategory[]**](../Model/SubCategory.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Model\SubCategory[]**](../Model/SubCategory.md)
 
 ### Authorization
 
@@ -127,7 +127,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementCategoriesIdSubcategoriesPost**
-> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\SubCategory procurementCategoriesIdSubcategoriesPost($id, $sub_category)
+> \Spinen\ConnectWise\Clients\Procurement\Model\SubCategory procurementCategoriesIdSubcategoriesPost($id, $sub_category)
 
 
 
@@ -144,7 +144,7 @@ Spinen\ConnectWise\Clients\Procurement\Configuration::getDefaultConfiguration()-
 
 $api_instance = new Spinen\ConnectWise\Clients\Procurement\Api\SubCategoriesApi();
 $id = 56; // int | 
-$sub_category = new \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\SubCategory(); // \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\SubCategory | 
+$sub_category = new \Spinen\ConnectWise\Clients\Procurement\Model\SubCategory(); // \Spinen\ConnectWise\Clients\Procurement\Model\SubCategory | 
 
 try {
     $result = $api_instance->procurementCategoriesIdSubcategoriesPost($id, $sub_category);
@@ -160,11 +160,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **sub_category** | [**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\SubCategory**](../Model/\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\SubCategory.md)|  |
+ **sub_category** | [**\Spinen\ConnectWise\Clients\Procurement\Model\SubCategory**](../Model/\Spinen\ConnectWise\Clients\Procurement\Model\SubCategory.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\SubCategory**](../Model/SubCategory.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Model\SubCategory**](../Model/SubCategory.md)
 
 ### Authorization
 
@@ -228,7 +228,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementCategoriesIdSubcategoriesSubcategoryIDGet**
-> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\SubCategory procurementCategoriesIdSubcategoriesSubcategoryIDGet($id, $subcategory_id)
+> \Spinen\ConnectWise\Clients\Procurement\Model\SubCategory procurementCategoriesIdSubcategoriesSubcategoryIDGet($id, $subcategory_id)
 
 
 
@@ -265,7 +265,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\SubCategory**](../Model/SubCategory.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Model\SubCategory**](../Model/SubCategory.md)
 
 ### Authorization
 
@@ -279,7 +279,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementCategoriesIdSubcategoriesSubcategoryIDPatch**
-> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\SubCategory procurementCategoriesIdSubcategoriesSubcategoryIDPatch($id, $subcategory_id, $operations)
+> \Spinen\ConnectWise\Clients\Procurement\Model\SubCategory procurementCategoriesIdSubcategoriesSubcategoryIDPatch($id, $subcategory_id, $operations)
 
 
 
@@ -297,7 +297,7 @@ Spinen\ConnectWise\Clients\Procurement\Configuration::getDefaultConfiguration()-
 $api_instance = new Spinen\ConnectWise\Clients\Procurement\Api\SubCategoriesApi();
 $id = 56; // int | 
 $subcategory_id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->procurementCategoriesIdSubcategoriesSubcategoryIDPatch($id, $subcategory_id, $operations);
@@ -314,11 +314,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **subcategory_id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Procurement\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\SubCategory**](../Model/SubCategory.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Model\SubCategory**](../Model/SubCategory.md)
 
 ### Authorization
 
@@ -332,7 +332,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **procurementCategoriesIdSubcategoriesSubcategoryIDPut**
-> \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\SubCategory procurementCategoriesIdSubcategoriesSubcategoryIDPut($id, $subcategory_id, $sub_category)
+> \Spinen\ConnectWise\Clients\Procurement\Model\SubCategory procurementCategoriesIdSubcategoriesSubcategoryIDPut($id, $subcategory_id, $sub_category)
 
 
 
@@ -350,7 +350,7 @@ Spinen\ConnectWise\Clients\Procurement\Configuration::getDefaultConfiguration()-
 $api_instance = new Spinen\ConnectWise\Clients\Procurement\Api\SubCategoriesApi();
 $id = 56; // int | 
 $subcategory_id = 56; // int | 
-$sub_category = new \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\SubCategory(); // \Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\SubCategory | 
+$sub_category = new \Spinen\ConnectWise\Clients\Procurement\Model\SubCategory(); // \Spinen\ConnectWise\Clients\Procurement\Model\SubCategory | 
 
 try {
     $result = $api_instance->procurementCategoriesIdSubcategoriesSubcategoryIDPut($id, $subcategory_id, $sub_category);
@@ -367,11 +367,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **subcategory_id** | **int**|  |
- **sub_category** | [**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\SubCategory**](../Model/\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\SubCategory.md)|  |
+ **sub_category** | [**\Spinen\ConnectWise\Clients\Procurement\Model\SubCategory**](../Model/\Spinen\ConnectWise\Clients\Procurement\Model\SubCategory.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Model\SubCategory**](../Model/SubCategory.md)
+[**\Spinen\ConnectWise\Clients\Procurement\Model\SubCategory**](../Model/SubCategory.md)
 
 ### Authorization
 
