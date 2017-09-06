@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Procurement\Spinen\ConnectWise\Clients\Procurement\Api;
+namespace Spinen\ConnectWise\Clients\Procurement\Api;
 
 use \Spinen\ConnectWise\Clients\Procurement\ApiClient;
 use \Spinen\ConnectWise\Clients\Procurement\ApiException;
